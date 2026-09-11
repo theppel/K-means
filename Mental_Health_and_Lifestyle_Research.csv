@@ -1,0 +1,1001 @@
+Person_ID,Age,Gender,Hours_of_Sleep,Stress_Level,Physical_Activity,Work_Hours_per_Day,Mental_Health_Status,Social_Interaction_Freq,Overall_Wellbeing_Score,Diet_Quality,Screen_Time_per_Day,Substance_Use,Has_Close_Friends,Physical_Health_Condition
+1,25,Male,7,7,13,9,Mild Anxiety,Low,3,Excellent,8.8,None,True,None
+2,34,Female,7,4,46,9,Depression,Moderate,5,Fair,5.1,Alcohol,True,Hypertension
+3,31,Female,5,6,34,8,None,Moderate,4,Fair,6.6,Smoking,True,Obesity
+4,29,Female,6,7,30,11,Depression,Moderate,2,Good,7.6,Alcohol,True,None
+5,22,Female,7,5,10,7,None,Moderate,4,Very Good,6.5,Alcohol,True,Obesity
+6,22,Male,7,6,56,6,None,Moderate,3,Good,8.2,Alcohol,True,None
+7,20,Female,7,4,43,10,None,Moderate,5,Very Good,7.6,Smoking,True,None
+8,33,Male,7,5,18,8,None,Low,4,Fair,10.7,Smoking,True,Obesity
+9,29,Male,7,5,50,9,Mild Anxiety,High,5,Fair,3.9,None,True,None
+10,30,Male,8,4,20,10,Moderate Anxiety,Moderate,6,Very Good,6.8,Smoking,True,Hypertension
+11,20,Male,8,5,14,6,None,Moderate,4,Fair,5.2,Alcohol,True,None
+12,35,Male,8,2,14,10,None,Low,9,Good,8.2,None,True,None
+13,32,Female,9,5,0,8,Depression,Low,3,Fair,3.8,Smoking,True,Diabetes
+14,23,Female,5,5,39,8,Depression,Moderate,4,Good,7.7,Alcohol,True,Hypertension
+15,22,Female,6,5,0,8,None,High,7,Very Good,5.7,Smoking,True,None
+16,22,Female,5,5,5,10,Depression,Moderate,3,Good,5.5,None,True,None
+17,24,Male,8,5,0,5,None,High,3,Good,4.1,None,True,None
+18,28,Female,8,6,28,8,None,Moderate,4,Fair,6.1,Alcohol,True,None
+19,26,Male,6,7,26,8,Depression,Moderate,1,Very Good,9.2,None,True,Other Chronic Illness
+20,24,Female,9,4,23,9,None,Low,5,Good,6.9,Alcohol,True,Obesity
+21,29,Male,5,3,9,8,None,High,9,Good,8.3,None,False,None
+22,22,Male,9,3,6,6,None,Low,5,Very Good,10.3,Alcohol,True,None
+23,24,Female,7,5,39,7,Depression,High,3,Fair,7.5,None,True,Obesity
+24,25,Male,5,5,18,8,Depression,High,3,Very Good,5.9,None,True,Hypertension
+25,27,Male,7,4,36,9,None,High,6,Good,7.9,Alcohol,True,Hypertension
+26,32,Female,6,3,12,7,None,Moderate,8,Good,5.9,None,True,Obesity
+27,22,Male,6,5,33,7,None,Moderate,4,Fair,6.0,Alcohol,True,None
+28,27,Female,6,6,56,11,None,Moderate,4,Excellent,4.0,Both,True,None
+29,29,Female,8,7,41,5,None,Low,4,Very Good,8.9,Alcohol,True,Other Chronic Illness
+30,20,Female,7,4,21,11,Severe Anxiety,Moderate,7,Fair,6.2,Smoking,True,Obesity
+31,29,Male,6,5,35,8,None,Low,4,Good,7.4,None,True,None
+32,22,Male,7,4,25,9,None,Moderate,3,Very Good,4.9,None,True,None
+33,20,Male,8,5,30,7,None,Low,4,Good,7.9,Smoking,True,None
+34,34,Female,6,4,23,5,None,Low,5,Very Good,5.5,Alcohol,True,Obesity
+35,35,Male,7,7,26,9,Depression,Moderate,2,Good,6.7,Alcohol,True,None
+36,32,Female,6,2,34,9,None,Moderate,7,Very Good,8.8,Alcohol,True,None
+37,24,Female,6,5,10,9,None,Moderate,6,Good,8.6,Alcohol,True,Other Chronic Illness
+38,21,Male,8,6,9,6,None,Low,5,Fair,7.0,None,True,None
+39,30,Female,6,6,2,9,None,Moderate,3,Good,3.5,Alcohol,False,None
+40,26,Male,7,10,0,9,None,Low,1,Excellent,12.0,Alcohol,True,None
+41,21,Male,8,6,5,8,None,Moderate,4,Good,10.5,Alcohol,True,None
+42,27,Male,5,3,33,9,None,Moderate,7,Good,8.4,Smoking,True,None
+43,20,Male,7,5,12,9,None,Moderate,5,Good,5.5,None,True,Obesity
+44,34,Male,6,2,40,8,None,Moderate,8,Good,6.8,None,True,Obesity
+45,23,Female,9,5,30,6,None,Moderate,7,Very Good,5.9,Smoking,True,None
+46,30,Female,7,4,0,8,Depression,Moderate,4,Very Good,9.5,Alcohol,True,None
+47,24,Female,8,7,43,6,None,Moderate,2,Poor,7.5,Alcohol,True,Hypertension
+48,28,Male,7,4,46,8,None,Moderate,5,Excellent,5.4,None,True,None
+49,28,Male,5,5,10,8,None,Moderate,5,Very Good,6.1,None,True,None
+50,22,Male,7,4,38,6,None,Low,7,Very Good,9.2,Alcohol,True,Obesity
+51,35,Female,9,9,12,8,Moderate Anxiety,Moderate,1,Good,10.2,Alcohol,True,None
+52,32,Male,7,5,31,6,None,Moderate,3,Very Good,10.1,Smoking,True,None
+53,34,Female,8,9,4,9,Mild Anxiety,Moderate,1,Fair,8.5,Both,True,None
+54,33,Female,8,7,0,10,None,Low,3,Good,6.5,Smoking,True,None
+55,29,Male,6,6,22,6,None,Low,2,Very Good,1.0,Alcohol,True,None
+56,34,Male,6,6,27,11,Severe Anxiety,High,3,Fair,7.6,Alcohol,True,None
+57,21,Female,7,6,22,8,None,Moderate,2,Fair,7.0,Alcohol,True,None
+58,22,Male,7,2,6,7,None,Low,7,Very Good,7.3,None,True,Obesity
+59,20,Female,8,5,22,6,None,Moderate,4,Very Good,7.1,None,True,None
+60,24,Male,8,7,35,8,Moderate Anxiety,Moderate,3,Fair,4.3,Alcohol,True,None
+61,25,Male,7,5,29,9,None,High,5,Very Good,8.1,Both,True,Hypertension
+62,24,Female,6,3,33,9,Depression,Low,5,Good,8.3,None,True,Obesity
+63,32,Male,8,5,16,6,None,Low,5,Good,8.4,None,True,None
+64,25,Female,6,9,53,6,Depression,High,1,Very Good,8.9,Both,True,None
+65,24,Male,8,8,6,8,None,Low,2,Good,8.2,None,True,None
+66,28,Female,7,5,39,7,Moderate Anxiety,Low,4,Fair,6.2,Alcohol,True,Obesity
+67,22,Female,8,7,53,7,None,High,2,Fair,6.9,None,True,None
+68,32,Male,5,5,39,7,Depression,Moderate,5,Good,7.2,None,True,None
+69,21,Female,7,2,25,9,None,Low,8,Good,7.2,Both,True,None
+70,35,Male,7,4,19,10,None,Low,7,Very Good,9.0,None,True,None
+71,31,Male,7,9,50,8,None,Low,1,Very Good,8.3,Alcohol,True,None
+72,22,Male,6,5,1,10,None,Low,5,Good,11.2,None,True,None
+73,20,Female,8,5,10,8,None,High,4,Very Good,11.4,None,False,Obesity
+74,32,Female,8,5,22,8,Depression,Moderate,5,Fair,7.2,None,True,Diabetes
+75,30,Male,6,9,54,7,Depression,Moderate,1,Poor,1.0,None,True,None
+76,31,Male,5,9,37,8,None,High,1,Very Good,9.5,None,True,None
+77,31,Female,5,10,10,11,Depression,Moderate,1,Fair,5.9,Alcohol,True,None
+78,21,Male,7,5,23,8,None,Low,5,Fair,5.4,Alcohol,True,None
+79,25,Male,7,6,17,8,None,Moderate,4,Good,6.2,None,True,Obesity
+80,21,Female,7,2,15,8,Mild Anxiety,High,7,Good,6.1,Alcohol,True,Other Chronic Illness
+81,33,Male,6,8,49,6,Mild Anxiety,High,1,Very Good,8.2,Both,True,None
+82,29,Female,7,3,2,10,Depression,Low,8,Fair,3.9,Both,True,None
+83,25,Male,7,6,62,8,None,Moderate,4,Poor,4.8,Alcohol,True,None
+84,20,Female,7,3,46,8,Mild Anxiety,Moderate,6,Fair,7.7,Smoking,True,Obesity
+85,24,Male,9,4,51,8,None,High,4,Good,8.2,None,True,Obesity
+86,24,Male,6,4,20,8,None,Low,5,Good,8.3,Alcohol,True,Obesity
+87,31,Female,8,4,27,6,None,Moderate,7,Good,5.4,Alcohol,True,Obesity
+88,29,Male,7,4,1,8,Depression,High,6,Very Good,5.0,Alcohol,True,None
+89,33,Female,7,4,19,7,Depression,Moderate,5,Very Good,6.0,Alcohol,True,Diabetes
+90,27,Male,8,7,39,9,Severe Anxiety,Moderate,3,Fair,7.5,Alcohol,True,Obesity
+91,21,Female,8,3,55,9,None,Low,6,Good,10.0,Both,True,Hypertension
+92,31,Female,9,6,7,9,None,Low,5,Good,2.9,Smoking,True,None
+93,31,Female,6,8,22,8,None,Moderate,3,Excellent,6.6,Alcohol,True,Obesity
+94,28,Female,5,4,26,8,None,High,5,Excellent,4.3,Alcohol,False,Hypertension
+95,31,Male,8,4,2,6,None,Low,5,Fair,3.7,None,True,Obesity
+96,27,Male,7,5,41,9,Moderate Anxiety,Moderate,2,Very Good,8.9,None,True,Diabetes
+97,28,Female,6,8,15,7,None,Moderate,1,Good,8.1,Alcohol,True,Obesity
+98,26,Female,5,6,26,8,None,Low,2,Poor,7.9,Alcohol,True,Obesity
+99,20,Female,5,4,20,7,None,Moderate,6,Poor,8.8,None,True,Hypertension
+100,21,Male,8,6,14,6,None,Moderate,3,Good,6.0,Smoking,True,Obesity
+101,20,Male,6,3,29,8,None,High,5,Good,6.1,Alcohol,True,None
+102,29,Male,6,7,25,6,Depression,Moderate,2,Poor,11.4,Alcohol,True,None
+103,24,Male,6,6,22,9,Mild Anxiety,Moderate,4,Good,6.5,None,True,None
+104,27,Female,7,5,15,8,Depression,Low,5,Fair,8.5,None,True,Hypertension
+105,34,Female,5,4,36,5,None,High,4,Good,7.0,Smoking,True,Hypertension
+106,23,Female,7,4,63,8,None,Low,5,Fair,3.3,Alcohol,True,Other Chronic Illness
+107,26,Male,5,7,32,5,None,Moderate,1,Fair,2.9,Both,True,None
+108,31,Male,8,8,49,7,Depression,Low,2,Good,5.8,Both,True,None
+109,23,Male,6,4,2,9,Severe Anxiety,High,6,Fair,9.1,Alcohol,True,None
+110,21,Female,7,6,33,6,None,Moderate,3,Good,8.6,None,True,None
+111,24,Female,8,1,8,9,None,Moderate,8,Fair,8.8,Smoking,True,Obesity
+112,22,Male,8,4,0,5,None,Low,5,Good,5.0,Both,True,None
+113,34,Female,7,5,15,7,Mild Anxiety,Moderate,2,Fair,10.2,Alcohol,True,Diabetes
+114,32,Male,6,4,53,9,Depression,Moderate,6,Good,5.1,Alcohol,True,Obesity
+115,29,Male,6,4,49,8,None,Moderate,5,Very Good,7.4,Alcohol,True,None
+116,33,Female,8,4,34,6,None,Low,6,Fair,7.0,Alcohol,True,Obesity
+117,32,Male,9,6,0,8,None,High,2,Good,6.7,Alcohol,True,None
+118,22,Female,8,5,26,7,None,High,4,Fair,9.7,Smoking,True,None
+119,33,Male,7,1,36,9,None,Low,7,Good,5.6,Alcohol,True,Obesity
+120,28,Female,8,1,33,8,None,High,7,Fair,4.3,None,True,Obesity
+121,32,Female,7,4,0,9,Moderate Anxiety,Moderate,4,Good,7.0,None,True,None
+122,33,Female,5,6,12,10,Moderate Anxiety,Moderate,4,Good,6.2,None,True,None
+123,24,Male,7,1,28,8,None,Moderate,8,Very Good,12.0,None,True,None
+124,21,Male,9,5,40,10,Depression,Moderate,5,Good,8.4,Both,True,None
+125,23,Female,6,4,0,8,None,Moderate,5,Good,6.2,None,True,Other Chronic Illness
+126,26,Female,8,8,26,11,None,Moderate,1,Good,4.9,None,True,Hypertension
+127,32,Male,6,5,32,6,None,Moderate,4,Excellent,3.2,None,True,None
+128,33,Male,7,6,46,8,None,Moderate,4,Very Good,4.9,Alcohol,True,Obesity
+129,20,Male,5,6,43,8,None,Moderate,2,Fair,7.2,Alcohol,True,None
+130,27,Female,7,1,41,8,None,Low,9,Very Good,9.9,None,True,None
+131,26,Male,8,7,14,8,None,High,2,Good,9.2,None,True,Other Chronic Illness
+132,23,Male,6,6,0,9,Depression,Moderate,3,Very Good,7.5,None,True,Obesity
+133,21,Female,8,7,22,5,None,Low,3,Very Good,6.4,Alcohol,True,Obesity
+134,25,Male,8,10,50,7,None,Low,1,Fair,7.5,None,True,Hypertension
+135,34,Male,9,1,57,9,None,Moderate,9,Good,6.0,Both,True,Obesity
+136,24,Male,6,9,44,8,Mild Anxiety,High,1,Fair,10.4,Alcohol,False,None
+137,28,Female,7,5,38,11,None,Moderate,5,Fair,6.6,None,True,Hypertension
+138,30,Female,6,6,37,9,Depression,Moderate,1,Fair,6.8,Alcohol,True,Other Chronic Illness
+139,25,Female,9,5,18,11,None,Low,3,Very Good,2.6,None,True,None
+140,35,Female,9,5,27,9,None,Moderate,5,Fair,6.6,Alcohol,True,Obesity
+141,35,Female,7,4,63,7,None,High,7,Poor,8.7,None,True,None
+142,23,Female,8,6,11,6,None,Moderate,3,Very Good,4.9,Alcohol,True,None
+143,27,Female,7,2,62,9,None,Low,7,Fair,5.5,Alcohol,True,Obesity
+144,24,Male,7,7,23,8,None,Moderate,3,Fair,8.6,Both,True,None
+145,24,Male,5,5,56,5,None,Low,5,Fair,4.0,None,True,Diabetes
+146,20,Female,8,3,1,8,None,Moderate,4,Good,9.1,None,True,None
+147,29,Male,6,5,41,11,None,Moderate,4,Good,5.9,Alcohol,True,Other Chronic Illness
+148,27,Male,8,8,15,8,Depression,Moderate,1,Poor,6.2,Both,True,None
+149,20,Female,8,4,1,8,None,Low,6,Excellent,4.8,Both,False,None
+150,24,Male,8,6,34,8,Depression,High,6,Very Good,7.8,None,True,None
+151,34,Male,5,4,50,7,Severe Anxiety,Moderate,5,Good,11.9,None,True,Other Chronic Illness
+152,23,Male,6,7,13,8,None,Moderate,1,Good,8.6,Alcohol,True,Obesity
+153,22,Male,6,7,0,8,None,Moderate,3,Good,5.3,None,True,Obesity
+154,27,Male,7,9,28,6,None,Moderate,2,Good,9.3,None,True,None
+155,35,Female,5,5,28,9,Mild Anxiety,Moderate,5,Fair,6.4,None,True,None
+156,23,Female,9,7,40,8,Mild Anxiety,Moderate,2,Fair,9.7,Alcohol,True,None
+157,30,Female,7,6,48,9,Severe Anxiety,Moderate,4,Very Good,8.6,Both,True,Hypertension
+158,31,Male,6,8,28,10,Depression,Low,2,Fair,1.1,Both,True,None
+159,23,Female,7,4,67,7,Mild Anxiety,High,4,Good,5.0,Alcohol,True,Other Chronic Illness
+160,31,Male,7,7,34,8,None,Moderate,3,Very Good,8.9,Alcohol,True,Obesity
+161,25,Male,7,5,23,8,None,Low,5,Good,7.3,Smoking,True,None
+162,29,Male,7,5,0,10,Depression,Moderate,6,Good,5.0,None,True,None
+163,29,Male,8,6,24,7,None,High,3,Good,5.7,Alcohol,True,Obesity
+164,28,Female,7,6,23,8,None,High,3,Poor,3.2,Alcohol,True,None
+165,21,Female,9,5,49,8,Mild Anxiety,Moderate,6,Very Good,6.8,None,True,None
+166,32,Male,8,6,39,7,None,Low,2,Good,11.4,Alcohol,True,None
+167,24,Female,6,9,6,6,Depression,Moderate,1,Very Good,8.6,None,True,Hypertension
+168,22,Male,9,7,33,8,Mild Anxiety,Low,1,Excellent,11.4,Alcohol,True,Obesity
+169,20,Female,5,7,43,9,None,High,4,Very Good,8.8,None,True,None
+170,29,Female,8,5,60,8,Depression,Low,4,Very Good,9.1,None,True,None
+171,30,Male,7,4,47,8,None,Low,7,Good,10.9,None,True,None
+172,20,Female,8,7,45,8,None,Moderate,3,Good,7.8,Smoking,True,Obesity
+173,27,Male,8,7,31,9,None,Moderate,1,Good,6.6,Alcohol,True,None
+174,23,Female,8,8,37,7,None,Moderate,3,Good,9.1,Alcohol,True,None
+175,29,Male,8,4,54,10,None,Moderate,7,Very Good,9.9,Alcohol,True,Other Chronic Illness
+176,22,Male,6,5,3,7,None,Low,5,Fair,6.0,Alcohol,False,Other Chronic Illness
+177,30,Female,5,2,23,8,None,Low,7,Very Good,5.6,None,True,Other Chronic Illness
+178,25,Female,7,5,14,6,None,Moderate,4,Very Good,7.3,Alcohol,True,Obesity
+179,34,Male,6,7,37,6,Severe Anxiety,Low,3,Excellent,8.7,None,True,None
+180,22,Female,8,5,54,8,Depression,Moderate,4,Very Good,8.6,None,True,None
+181,25,Female,6,7,18,7,None,Moderate,4,Fair,4.2,Alcohol,True,None
+182,21,Male,9,5,0,9,None,Moderate,5,Fair,10.8,None,True,None
+183,34,Male,7,6,21,5,None,High,1,Fair,5.7,None,True,Other Chronic Illness
+184,33,Female,8,3,48,8,None,High,7,Fair,6.5,Alcohol,True,Obesity
+185,23,Male,6,6,40,8,Severe Anxiety,High,3,Good,5.2,Alcohol,True,Obesity
+186,30,Male,8,1,38,5,Mild Anxiety,Low,8,Very Good,12.0,Alcohol,True,None
+187,32,Male,9,5,24,6,None,Low,4,Very Good,7.5,Alcohol,True,Obesity
+188,28,Female,7,2,4,8,None,Moderate,8,Good,5.3,Alcohol,True,Obesity
+189,28,Female,7,8,40,8,None,High,3,Poor,8.7,Alcohol,False,None
+190,23,Male,8,7,13,8,Mild Anxiety,High,3,Fair,8.5,None,True,Obesity
+191,21,Female,6,6,73,8,None,High,3,Fair,6.6,None,True,None
+192,33,Male,7,9,41,8,Depression,Low,1,Good,8.7,Alcohol,True,None
+193,34,Female,7,4,18,5,Severe Anxiety,High,6,Good,5.3,None,True,Obesity
+194,29,Male,6,9,17,8,None,Moderate,1,Poor,6.0,Both,True,Obesity
+195,25,Male,7,7,28,11,None,Low,3,Good,3.0,Smoking,True,None
+196,25,Female,5,5,25,8,Depression,Moderate,5,Fair,4.4,None,True,None
+197,31,Male,5,8,52,8,None,Low,3,Good,10.6,None,True,Other Chronic Illness
+198,33,Female,6,3,33,8,None,Moderate,8,Good,10.3,None,True,Obesity
+199,33,Female,9,4,15,9,None,Moderate,5,Good,7.1,None,True,Obesity
+200,32,Male,7,4,67,9,Depression,Moderate,6,Good,10.3,None,True,None
+201,29,Male,9,4,30,8,Mild Anxiety,Moderate,5,Excellent,6.7,Alcohol,True,None
+202,21,Female,7,3,45,11,Mild Anxiety,High,7,Fair,6.5,Smoking,True,None
+203,22,Male,6,8,17,6,Depression,Moderate,1,Good,7.1,Alcohol,True,None
+204,33,Male,7,5,37,5,Depression,Moderate,3,Very Good,6.8,None,True,None
+205,29,Male,7,6,36,9,Depression,High,4,Good,6.6,Alcohol,True,None
+206,20,Male,5,4,0,9,None,High,3,Excellent,9.3,Alcohol,True,Hypertension
+207,21,Male,7,2,70,6,None,Low,6,Good,7.3,Smoking,True,None
+208,30,Female,6,6,55,7,Moderate Anxiety,Moderate,3,Good,8.4,Smoking,True,Obesity
+209,20,Female,7,2,22,5,Moderate Anxiety,Low,8,Fair,9.1,Both,True,None
+210,22,Male,8,5,7,7,None,Low,4,Good,7.8,Alcohol,True,None
+211,28,Male,6,3,36,9,None,Moderate,5,Fair,5.1,Alcohol,True,None
+212,30,Male,5,9,31,8,Severe Anxiety,High,1,Fair,4.3,None,True,None
+213,30,Female,8,7,37,8,Moderate Anxiety,Low,3,Good,7.3,Alcohol,True,None
+214,23,Male,7,6,33,8,None,High,4,Good,6.7,None,True,Other Chronic Illness
+215,31,Female,5,8,40,5,None,High,1,Fair,7.2,Alcohol,True,Obesity
+216,23,Female,9,4,58,7,None,High,7,Good,7.0,Alcohol,True,None
+217,24,Female,5,7,41,8,None,Low,3,Good,12.0,None,True,None
+218,31,Male,8,6,9,11,None,High,3,Fair,4.3,None,False,Hypertension
+219,30,Female,9,6,57,9,None,Moderate,3,Good,3.0,None,True,Obesity
+220,33,Male,6,8,62,5,None,Moderate,1,Very Good,7.7,None,True,None
+221,30,Female,6,7,93,10,None,Low,2,Good,6.2,None,True,Hypertension
+222,28,Male,6,6,7,9,Mild Anxiety,Low,5,Good,7.6,None,True,Obesity
+223,21,Female,6,2,34,9,Depression,Moderate,8,Good,8.2,None,True,Obesity
+224,25,Male,5,4,0,8,None,Moderate,7,Good,9.6,None,True,Obesity
+225,24,Female,8,5,41,8,None,Low,4,Excellent,4.0,Both,True,Obesity
+226,23,Male,5,6,19,8,Depression,Low,5,Good,5.9,None,True,Obesity
+227,35,Male,7,3,68,6,None,Moderate,6,Fair,7.9,None,True,None
+228,26,Male,9,10,14,7,Depression,Low,1,Good,8.5,Alcohol,False,Hypertension
+229,33,Male,8,9,0,7,Depression,High,1,Very Good,11.4,Smoking,True,Obesity
+230,29,Female,7,7,20,8,None,Low,3,Fair,8.9,Alcohol,True,Obesity
+231,32,Female,6,6,0,9,Depression,Low,5,Excellent,6.9,None,True,Other Chronic Illness
+232,27,Male,7,5,45,8,None,Moderate,4,Excellent,5.2,Alcohol,True,None
+233,28,Female,7,4,0,6,None,Moderate,6,Fair,5.9,Alcohol,True,None
+234,27,Male,7,6,30,11,Mild Anxiety,Moderate,5,Excellent,5.8,Alcohol,True,None
+235,22,Male,6,6,0,10,None,Moderate,3,Good,8.3,Alcohol,True,None
+236,31,Female,8,3,23,9,Depression,High,5,Very Good,7.5,Smoking,True,None
+237,24,Male,7,6,62,11,None,Moderate,6,Good,4.4,Smoking,True,Obesity
+238,20,Male,6,5,37,8,None,Low,4,Good,6.1,Alcohol,False,None
+239,30,Female,7,2,12,11,None,Moderate,8,Good,8.8,Alcohol,True,Obesity
+240,22,Male,7,4,29,6,Mild Anxiety,High,7,Very Good,7.7,Alcohol,True,Obesity
+241,34,Male,8,5,30,8,None,Moderate,4,Poor,8.1,Smoking,True,None
+242,34,Male,8,9,39,7,None,Low,1,Good,7.8,None,True,None
+243,34,Male,8,7,2,7,Depression,Moderate,3,Fair,10.3,Both,True,Diabetes
+244,25,Female,5,3,41,6,None,Moderate,5,Good,7.5,None,False,Obesity
+245,20,Female,7,6,0,8,Depression,Moderate,3,Good,6.2,Alcohol,True,Obesity
+246,34,Female,7,2,17,9,None,Low,8,Good,5.2,Smoking,False,Obesity
+247,26,Male,5,8,20,8,Moderate Anxiety,Low,1,Good,7.5,None,True,Other Chronic Illness
+248,35,Male,6,5,42,6,Mild Anxiety,Moderate,3,Fair,2.1,Alcohol,True,Hypertension
+249,35,Female,8,5,30,9,None,Low,6,Fair,6.6,None,True,Obesity
+250,33,Male,6,8,1,8,None,Moderate,2,Poor,6.6,Alcohol,True,Obesity
+251,24,Male,7,3,10,8,Depression,Moderate,8,Good,4.3,None,True,Obesity
+252,25,Male,6,3,33,8,None,Low,6,Excellent,5.1,Alcohol,True,None
+253,33,Male,5,4,28,7,Depression,High,5,Fair,8.6,Alcohol,True,Other Chronic Illness
+254,24,Female,6,8,18,8,None,High,2,Excellent,7.5,Both,True,None
+255,22,Female,9,2,20,10,None,Moderate,7,Very Good,7.2,Both,True,Obesity
+256,28,Female,8,1,43,7,None,Low,7,Good,7.6,None,True,None
+257,34,Male,9,5,19,8,Depression,Low,6,Good,7.2,Alcohol,True,None
+258,30,Female,7,7,28,10,None,Moderate,2,Very Good,9.5,None,True,None
+259,28,Female,5,8,73,9,Depression,Low,1,Fair,7.2,None,True,None
+260,21,Male,7,5,1,6,Depression,High,6,Good,4.1,None,True,None
+261,29,Male,7,5,0,6,None,Low,4,Good,10.3,Both,True,Obesity
+262,35,Female,8,8,45,5,None,Moderate,1,Good,7.7,Both,True,None
+263,22,Female,5,2,16,8,Moderate Anxiety,Moderate,6,Very Good,5.8,None,True,None
+264,28,Female,7,5,23,8,None,Moderate,6,Fair,4.5,None,True,None
+265,33,Female,6,6,14,6,Severe Anxiety,Low,2,Good,7.8,None,True,Hypertension
+266,31,Male,6,6,24,11,None,Moderate,4,Good,6.8,Alcohol,True,None
+267,30,Female,8,4,61,8,None,Low,6,Good,10.1,Alcohol,True,None
+268,30,Female,7,6,46,7,Severe Anxiety,High,4,Good,6.3,None,False,None
+269,25,Male,7,1,47,8,None,Low,8,Good,5.3,Alcohol,True,Obesity
+270,24,Female,7,4,1,8,None,High,4,Very Good,8.8,None,True,None
+271,32,Male,7,6,6,6,None,High,3,Good,8.9,Both,True,None
+272,32,Male,8,4,0,7,None,Low,6,Very Good,7.3,Alcohol,True,None
+273,33,Male,8,6,13,9,None,Moderate,3,Good,8.4,Alcohol,True,Other Chronic Illness
+274,34,Female,9,6,49,8,Depression,Low,4,Fair,6.9,Alcohol,True,None
+275,27,Female,8,5,40,8,None,High,5,Fair,7.5,Smoking,False,Hypertension
+276,27,Male,6,6,25,8,None,Moderate,4,Poor,9.3,None,True,None
+277,32,Female,8,4,29,5,Mild Anxiety,Moderate,4,Good,8.3,None,True,None
+278,30,Female,7,5,16,7,None,Moderate,7,Good,6.7,Both,True,None
+279,30,Male,6,7,34,8,None,Low,3,Very Good,9.7,None,True,None
+280,32,Male,8,6,45,7,Depression,High,3,Very Good,2.3,None,True,None
+281,33,Female,5,4,0,5,Moderate Anxiety,Low,7,Poor,11.1,Alcohol,True,None
+282,25,Male,8,6,35,9,None,Moderate,6,Fair,3.6,Smoking,True,None
+283,25,Female,7,7,48,11,Mild Anxiety,Moderate,1,Fair,5.7,Alcohol,True,Obesity
+284,21,Female,7,1,21,9,None,High,8,Good,6.9,Both,True,Other Chronic Illness
+285,28,Female,8,8,44,10,None,Low,1,Fair,6.7,Alcohol,True,None
+286,20,Female,8,5,86,7,None,Moderate,5,Fair,9.0,None,True,Diabetes
+287,27,Male,7,6,27,11,None,Moderate,4,Excellent,4.9,Alcohol,True,Other Chronic Illness
+288,28,Male,7,8,37,7,None,Moderate,1,Very Good,7.5,Alcohol,True,Obesity
+289,24,Male,5,3,15,11,None,Low,6,Fair,5.8,None,True,None
+290,29,Male,7,4,33,11,None,Low,3,Good,7.6,None,True,Obesity
+291,20,Female,6,5,39,9,Depression,Low,5,Good,6.9,None,True,None
+292,20,Female,8,4,33,11,None,Moderate,7,Very Good,7.2,Alcohol,True,Hypertension
+293,32,Male,7,9,9,8,None,Low,1,Good,5.9,Smoking,True,None
+294,25,Female,8,4,34,7,None,Moderate,6,Fair,6.0,Alcohol,True,None
+295,21,Female,5,4,59,8,None,Low,4,Very Good,7.6,Both,True,None
+296,28,Female,5,6,38,8,Mild Anxiety,High,4,Good,8.9,None,True,None
+297,31,Male,8,3,49,6,None,High,6,Fair,5.8,Both,False,Obesity
+298,23,Male,5,5,25,8,None,Moderate,4,Good,5.3,Smoking,True,None
+299,29,Male,5,6,44,11,None,Moderate,3,Good,8.2,None,True,Hypertension
+300,21,Female,5,5,35,7,Moderate Anxiety,Low,4,Good,6.9,Both,True,None
+301,20,Male,9,5,10,9,None,Low,5,Fair,8.7,None,True,None
+302,28,Male,8,4,36,10,None,Low,4,Good,5.2,Smoking,True,Hypertension
+303,28,Male,7,2,10,10,None,Moderate,7,Poor,3.4,Smoking,True,Other Chronic Illness
+304,29,Male,6,6,17,11,None,Moderate,3,Very Good,5.9,Alcohol,True,None
+305,31,Male,7,9,33,8,None,High,1,Fair,5.5,Alcohol,True,None
+306,35,Male,8,6,35,11,Mild Anxiety,Moderate,5,Poor,6.8,None,True,Obesity
+307,27,Female,8,6,6,9,Mild Anxiety,Moderate,3,Good,5.7,Alcohol,True,None
+308,24,Female,6,7,51,7,Depression,Moderate,2,Very Good,8.5,Alcohol,True,Obesity
+309,32,Male,6,3,41,8,None,Moderate,6,Very Good,6.4,Alcohol,True,Hypertension
+310,24,Male,5,9,15,9,None,Low,2,Good,7.3,Alcohol,True,None
+311,26,Female,8,6,0,7,None,Moderate,4,Fair,7.3,Both,True,None
+312,21,Female,8,9,27,8,Depression,Moderate,1,Very Good,7.4,None,False,None
+313,20,Male,6,4,21,8,None,Moderate,7,Good,7.0,Smoking,True,None
+314,35,Male,5,9,32,7,Mild Anxiety,High,1,Fair,8.0,Both,True,Obesity
+315,32,Male,5,7,22,8,None,Moderate,3,Very Good,5.4,Alcohol,True,Obesity
+316,30,Male,9,7,0,9,None,Low,2,Fair,9.8,None,True,Obesity
+317,26,Female,6,6,22,8,None,Moderate,3,Excellent,6.5,None,True,Obesity
+318,22,Male,8,5,23,5,None,Moderate,5,Very Good,4.4,None,True,None
+319,22,Male,7,8,42,5,Depression,Low,1,Good,7.4,Alcohol,True,Diabetes
+320,23,Male,7,6,16,8,Depression,Moderate,5,Excellent,5.3,Alcohol,True,None
+321,28,Male,6,2,63,10,None,High,6,Very Good,8.3,Both,True,Obesity
+322,31,Female,6,3,0,7,None,High,8,Fair,11.4,Alcohol,True,None
+323,30,Female,7,5,56,8,Depression,Low,4,Good,5.4,None,True,Obesity
+324,24,Female,8,6,25,7,Mild Anxiety,High,4,Fair,7.7,Alcohol,True,Obesity
+325,35,Male,8,5,47,8,None,Moderate,5,Good,3.5,Smoking,False,None
+326,31,Male,7,8,31,9,None,Moderate,1,Very Good,7.9,Both,True,None
+327,28,Female,5,2,52,9,None,Moderate,8,Good,5.2,Smoking,True,Hypertension
+328,29,Male,9,6,22,6,None,High,1,Good,5.8,Alcohol,True,None
+329,26,Male,8,2,8,8,None,Moderate,7,Good,4.8,Alcohol,True,Obesity
+330,23,Female,6,7,58,5,None,Moderate,2,Very Good,8.5,Smoking,True,Other Chronic Illness
+331,25,Female,9,5,27,8,None,Moderate,3,Poor,9.0,Alcohol,True,None
+332,31,Female,7,6,34,8,None,Moderate,3,Good,7.0,None,True,None
+333,20,Female,7,4,54,6,None,Low,6,Fair,5.3,None,True,Obesity
+334,21,Male,8,8,9,7,Depression,High,2,Good,10.2,None,True,None
+335,20,Male,8,8,41,8,Mild Anxiety,Moderate,2,Fair,5.5,Alcohol,True,None
+336,20,Female,8,7,18,10,None,Moderate,2,Good,2.7,None,True,Obesity
+337,33,Male,6,5,27,11,Depression,Low,5,Fair,7.9,None,True,Obesity
+338,30,Female,6,7,31,5,Depression,Moderate,3,Fair,4.8,None,True,None
+339,27,Female,9,4,0,9,None,Low,6,Excellent,9.0,Alcohol,False,None
+340,21,Male,6,7,14,8,None,Low,3,Poor,6.2,Alcohol,True,Obesity
+341,27,Female,7,9,57,8,Moderate Anxiety,Moderate,1,Good,8.2,Alcohol,True,Obesity
+342,27,Male,7,8,47,9,Depression,Moderate,1,Poor,9.8,None,True,Obesity
+343,22,Male,7,4,28,10,Depression,Moderate,5,Good,4.6,None,True,None
+344,26,Male,7,6,34,11,Depression,Low,3,Good,5.9,Alcohol,False,Obesity
+345,26,Male,9,3,24,8,None,Moderate,6,Good,6.8,None,True,Hypertension
+346,29,Female,6,7,57,8,None,Low,3,Fair,10.1,None,True,Obesity
+347,29,Male,6,6,25,9,None,High,4,Good,5.7,None,True,Hypertension
+348,20,Female,6,2,34,7,None,Moderate,7,Good,5.8,Smoking,True,None
+349,25,Female,8,3,52,8,None,Moderate,7,Very Good,8.0,Alcohol,True,Other Chronic Illness
+350,29,Female,8,5,14,8,Mild Anxiety,Moderate,5,Good,5.8,None,True,None
+351,27,Female,6,5,61,8,None,Low,4,Good,7.3,None,True,None
+352,33,Male,8,3,0,7,Moderate Anxiety,High,6,Fair,3.9,Both,True,Obesity
+353,30,Male,8,6,62,7,None,Low,2,Fair,11.4,Alcohol,True,Diabetes
+354,22,Female,8,6,22,10,None,Moderate,3,Fair,4.3,Alcohol,True,Obesity
+355,20,Female,8,5,25,6,None,Moderate,5,Fair,6.4,Alcohol,True,Hypertension
+356,29,Male,6,4,0,8,None,Low,5,Fair,6.9,Alcohol,True,None
+357,20,Female,8,8,20,7,Moderate Anxiety,High,1,Good,10.8,Alcohol,True,Obesity
+358,29,Male,7,9,9,5,Mild Anxiety,Moderate,1,Good,4.4,Alcohol,True,None
+359,34,Female,8,5,17,5,Depression,Low,5,Excellent,11.0,Alcohol,True,Obesity
+360,28,Male,8,4,27,7,None,Low,4,Fair,8.5,None,True,None
+361,25,Female,8,6,49,10,None,Low,4,Good,7.8,Both,True,Obesity
+362,29,Female,8,5,34,7,None,High,6,Very Good,5.0,Alcohol,False,None
+363,27,Male,6,5,36,11,None,Moderate,3,Good,8.1,None,False,Hypertension
+364,28,Female,7,7,8,8,Depression,Low,2,Fair,5.6,Both,True,Obesity
+365,34,Female,9,2,12,8,Mild Anxiety,Low,9,Fair,9.5,Both,True,None
+366,25,Male,9,8,65,8,Depression,Moderate,1,Poor,5.1,Both,True,Obesity
+367,35,Female,5,6,15,8,None,Moderate,1,Good,6.8,Smoking,True,Obesity
+368,34,Male,6,5,63,9,Depression,Moderate,3,Very Good,5.9,Both,True,Obesity
+369,22,Male,6,5,25,7,None,Moderate,4,Poor,5.0,None,True,Obesity
+370,20,Female,8,5,30,8,Depression,Low,3,Fair,8.5,Smoking,True,None
+371,21,Female,8,2,51,10,None,Moderate,7,Good,8.1,Smoking,True,None
+372,20,Female,6,8,55,10,None,High,2,Very Good,9.4,None,True,None
+373,21,Female,7,6,27,10,None,Low,5,Good,3.4,None,True,None
+374,30,Female,8,6,22,8,Depression,Moderate,3,Good,9.1,Both,False,None
+375,20,Female,8,7,28,9,None,Moderate,4,Good,12.0,None,True,Hypertension
+376,24,Female,7,3,36,8,None,Moderate,8,Fair,6.1,Smoking,True,None
+377,33,Male,7,6,47,8,Depression,Low,5,Good,10.8,None,True,None
+378,20,Female,7,5,30,7,None,High,5,Good,6.5,None,True,None
+379,32,Male,6,7,42,8,None,Moderate,1,Excellent,4.3,Alcohol,True,Obesity
+380,24,Female,7,1,62,7,None,Moderate,9,Fair,6.4,None,True,Hypertension
+381,21,Female,8,5,37,8,None,Moderate,6,Good,9.1,Alcohol,True,None
+382,30,Male,8,4,36,10,Depression,Low,5,Good,5.3,Alcohol,True,Obesity
+383,29,Female,7,6,0,7,Moderate Anxiety,Low,5,Good,5.8,None,True,None
+384,33,Female,8,6,0,6,None,Moderate,4,Poor,8.2,None,True,Other Chronic Illness
+385,31,Male,6,4,37,6,Depression,Low,6,Good,7.0,Alcohol,True,Diabetes
+386,32,Female,7,4,28,10,None,Moderate,7,Very Good,8.2,None,True,None
+387,24,Female,5,5,19,8,None,Moderate,5,Good,7.5,Alcohol,True,Obesity
+388,22,Female,6,4,34,8,None,Moderate,3,Good,8.0,Alcohol,True,Obesity
+389,31,Male,8,7,28,9,None,Moderate,2,Fair,6.1,None,True,None
+390,32,Female,9,5,52,9,None,Moderate,6,Fair,7.5,Alcohol,True,Obesity
+391,35,Female,5,1,31,8,Depression,Low,8,Good,5.1,None,True,None
+392,26,Female,7,5,15,8,Moderate Anxiety,Moderate,4,Very Good,9.6,None,True,None
+393,25,Female,8,3,49,9,None,Moderate,5,Excellent,5.7,None,True,None
+394,32,Male,6,2,25,8,None,Moderate,9,Good,9.3,Smoking,True,None
+395,25,Male,7,3,40,7,Moderate Anxiety,Low,8,Good,6.5,Both,True,None
+396,34,Female,8,6,20,10,Depression,Moderate,3,Very Good,7.4,Smoking,True,Obesity
+397,33,Female,7,8,17,8,Depression,Low,2,Good,6.0,None,True,None
+398,26,Male,6,6,31,7,None,Low,3,Good,5.0,None,True,None
+399,31,Male,7,4,30,8,Severe Anxiety,Low,6,Fair,3.5,Alcohol,True,Hypertension
+400,31,Female,8,6,39,5,None,High,4,Very Good,4.9,Alcohol,True,Obesity
+401,21,Male,7,5,24,6,None,Low,5,Good,6.4,Both,True,Other Chronic Illness
+402,34,Female,5,4,0,9,None,Low,6,Very Good,7.4,None,True,Obesity
+403,27,Male,8,3,21,5,None,Low,9,Very Good,9.0,None,True,Other Chronic Illness
+404,32,Male,5,2,45,8,None,Low,6,Fair,6.1,Alcohol,True,Obesity
+405,24,Male,8,5,24,8,None,Moderate,3,Very Good,5.2,Smoking,True,Other Chronic Illness
+406,33,Male,6,6,25,6,None,Low,3,Very Good,4.1,Smoking,True,Obesity
+407,25,Female,9,5,49,11,Moderate Anxiety,Low,3,Good,8.0,Alcohol,False,None
+408,20,Male,7,5,15,7,None,Moderate,3,Fair,9.8,Both,True,None
+409,34,Male,6,4,0,8,None,Moderate,4,Poor,9.5,Alcohol,True,Obesity
+410,21,Female,6,7,26,8,None,Moderate,2,Good,8.4,Both,False,None
+411,24,Male,6,3,20,7,Depression,Moderate,6,Good,8.3,Both,True,None
+412,34,Male,8,7,10,5,None,Low,3,Good,10.4,Smoking,True,Hypertension
+413,34,Female,9,3,26,9,None,Moderate,6,Fair,7.7,None,True,Obesity
+414,28,Male,7,4,39,11,None,Low,5,Very Good,8.3,None,True,None
+415,29,Female,7,3,29,7,Depression,Moderate,7,Fair,6.4,Alcohol,True,Obesity
+416,26,Female,8,4,36,8,Depression,Moderate,5,Fair,4.3,Alcohol,True,Obesity
+417,24,Female,8,7,66,9,None,Low,2,Good,5.6,Smoking,True,Other Chronic Illness
+418,25,Female,7,7,23,9,None,Moderate,3,Good,7.0,None,True,Obesity
+419,30,Male,7,7,35,8,Depression,High,1,Fair,7.1,None,True,Obesity
+420,31,Female,7,7,19,8,None,High,1,Fair,10.9,Alcohol,True,Hypertension
+421,32,Male,8,3,13,8,None,Moderate,7,Fair,7.2,None,True,None
+422,32,Male,5,5,18,9,None,Moderate,5,Very Good,9.4,None,False,Hypertension
+423,21,Male,7,4,20,9,None,Low,8,Very Good,6.1,Alcohol,True,Obesity
+424,27,Male,7,8,37,7,None,Low,2,Good,6.4,Alcohol,True,Obesity
+425,20,Male,8,3,76,8,None,Moderate,7,Very Good,4.3,None,False,Obesity
+426,28,Male,5,7,15,10,Mild Anxiety,Moderate,2,Very Good,5.5,Smoking,True,None
+427,26,Male,7,7,21,9,Depression,High,3,Fair,8.1,Alcohol,True,Hypertension
+428,33,Male,7,9,28,11,None,Moderate,2,Excellent,7.0,Both,True,None
+429,25,Male,7,5,37,9,Depression,Moderate,2,Very Good,8.9,Alcohol,True,None
+430,21,Male,5,7,35,8,None,Moderate,3,Fair,7.4,None,True,None
+431,22,Female,7,10,55,8,None,High,2,Fair,6.3,None,True,None
+432,31,Female,7,4,0,8,None,Moderate,6,Fair,11.3,None,True,Obesity
+433,29,Female,7,2,0,6,Depression,Moderate,9,Fair,6.8,Alcohol,True,None
+434,21,Male,7,2,20,8,Moderate Anxiety,Moderate,7,Very Good,9.3,None,False,None
+435,21,Female,8,7,51,9,Mild Anxiety,High,2,Good,6.2,Alcohol,True,Other Chronic Illness
+436,30,Female,8,2,0,7,Depression,Low,8,Very Good,8.4,Alcohol,True,None
+437,21,Female,6,5,0,9,Mild Anxiety,High,2,Very Good,8.9,None,False,None
+438,32,Male,8,6,41,8,Depression,Moderate,2,Good,7.4,None,True,None
+439,30,Male,7,6,34,11,Mild Anxiety,Moderate,2,Good,2.3,Alcohol,True,None
+440,21,Male,5,6,8,5,Depression,Moderate,4,Poor,7.0,Both,True,None
+441,21,Male,5,6,10,7,None,Moderate,4,Good,9.5,None,True,None
+442,35,Female,6,8,10,8,None,Low,2,Good,8.1,None,True,Hypertension
+443,25,Female,8,4,32,7,None,High,6,Poor,7.9,Both,True,None
+444,25,Female,8,4,17,9,None,Moderate,5,Poor,3.6,None,True,None
+445,32,Female,8,4,39,9,None,Moderate,7,Very Good,5.6,Both,True,Obesity
+446,34,Male,7,7,0,6,None,Low,3,Good,7.8,None,False,None
+447,35,Male,7,7,12,8,Mild Anxiety,Moderate,3,Fair,7.8,Smoking,True,Obesity
+448,31,Male,6,6,7,8,None,Moderate,3,Good,9.4,None,True,None
+449,25,Female,6,8,24,8,None,Moderate,2,Very Good,6.7,Both,True,None
+450,21,Male,7,3,19,10,None,Moderate,6,Good,7.8,None,True,Obesity
+451,32,Male,5,9,45,9,Depression,Moderate,1,Poor,7.0,Alcohol,False,None
+452,28,Female,6,9,0,8,None,High,1,Excellent,5.0,None,True,None
+453,26,Female,7,7,30,9,None,Moderate,1,Good,2.5,None,False,Obesity
+454,34,Male,8,9,41,8,Mild Anxiety,High,1,Fair,7.9,Alcohol,True,None
+455,21,Male,9,2,67,10,None,Low,7,Good,7.3,Alcohol,True,Obesity
+456,27,Male,9,4,20,8,None,Moderate,5,Very Good,5.8,Both,True,Obesity
+457,20,Male,7,4,36,9,None,Moderate,6,Fair,3.8,Alcohol,False,None
+458,27,Male,7,7,0,10,None,Moderate,2,Fair,8.3,Smoking,False,Hypertension
+459,20,Male,7,3,0,7,Depression,High,6,Fair,6.5,Alcohol,True,Hypertension
+460,21,Female,8,7,46,9,None,Low,4,Excellent,8.1,Both,True,Other Chronic Illness
+461,21,Female,6,8,29,7,None,Low,3,Fair,10.7,Both,True,Obesity
+462,30,Female,7,7,53,8,None,High,4,Good,2.7,None,True,Obesity
+463,31,Male,8,6,2,8,None,Low,3,Very Good,5.6,Smoking,True,None
+464,29,Female,7,4,40,11,Severe Anxiety,Moderate,7,Fair,6.6,Smoking,True,Obesity
+465,35,Male,7,4,67,10,None,Moderate,5,Excellent,9.9,None,False,None
+466,25,Male,7,8,38,9,None,High,1,Excellent,3.7,Alcohol,True,None
+467,24,Female,6,7,35,9,None,Low,1,Very Good,10.9,None,True,Other Chronic Illness
+468,33,Male,7,5,30,8,None,Low,6,Fair,7.3,Smoking,True,None
+469,23,Male,6,5,0,10,None,Moderate,4,Good,6.8,None,True,Other Chronic Illness
+470,35,Female,5,1,57,8,Depression,High,8,Very Good,6.6,None,False,None
+471,20,Female,5,3,17,8,Severe Anxiety,Moderate,6,Excellent,6.1,Alcohol,True,Obesity
+472,35,Female,8,9,40,7,Depression,Moderate,1,Fair,9.1,Alcohol,True,None
+473,20,Male,6,3,0,9,Depression,Moderate,6,Very Good,4.9,Smoking,False,None
+474,33,Female,7,6,6,9,Mild Anxiety,High,2,Good,7.7,Both,True,None
+475,28,Female,6,8,58,8,None,High,2,Fair,6.2,Alcohol,True,Hypertension
+476,35,Male,9,3,23,5,Severe Anxiety,High,5,Good,5.5,None,True,None
+477,21,Female,6,6,59,9,Depression,Low,3,Very Good,12.0,Alcohol,True,Obesity
+478,28,Female,7,7,28,5,Severe Anxiety,Low,1,Good,7.8,Alcohol,True,None
+479,35,Female,8,6,0,9,None,Moderate,2,Good,8.2,Alcohol,True,None
+480,28,Male,8,10,47,11,None,High,1,Excellent,9.3,None,True,None
+481,29,Male,6,2,18,8,Depression,Low,6,Good,4.2,Alcohol,True,None
+482,30,Male,8,8,43,7,Moderate Anxiety,Low,1,Good,10.5,None,True,Obesity
+483,26,Male,7,5,30,9,Depression,Moderate,4,Good,2.0,Alcohol,True,Obesity
+484,29,Female,7,7,0,9,None,Low,2,Good,5.5,Alcohol,True,None
+485,29,Male,6,6,33,8,None,Moderate,5,Good,6.1,Smoking,True,Hypertension
+486,34,Male,5,4,73,11,None,Moderate,7,Excellent,8.2,Alcohol,True,Obesity
+487,20,Female,8,6,39,6,Severe Anxiety,Moderate,3,Good,7.4,None,True,None
+488,24,Female,7,2,28,8,None,Moderate,8,Very Good,6.7,Smoking,True,None
+489,34,Female,7,7,51,9,None,Moderate,3,Fair,7.0,Alcohol,True,Hypertension
+490,33,Male,8,6,34,10,Depression,Moderate,3,Fair,5.0,None,True,None
+491,27,Male,8,7,34,7,None,Moderate,1,Good,4.0,Alcohol,True,None
+492,29,Male,6,8,8,9,Depression,Moderate,1,Poor,8.5,Alcohol,True,None
+493,24,Female,7,6,34,8,None,Moderate,3,Fair,8.4,Smoking,False,Diabetes
+494,22,Female,6,6,50,8,Depression,Low,3,Good,10.2,Alcohol,True,None
+495,27,Male,8,4,13,6,None,Low,6,Poor,5.4,Alcohol,True,None
+496,25,Female,8,4,58,10,Depression,Low,5,Fair,8.4,None,True,None
+497,29,Female,9,8,28,7,Depression,Low,1,Good,6.4,Alcohol,True,None
+498,21,Female,5,8,12,8,None,Moderate,2,Good,9.4,Both,True,None
+499,35,Male,5,5,49,7,None,High,5,Very Good,9.0,Smoking,False,Obesity
+500,35,Female,6,6,24,10,None,Moderate,2,Good,7.4,None,True,None
+501,30,Female,6,4,45,8,Mild Anxiety,Moderate,6,Good,6.3,None,False,Obesity
+502,28,Male,6,8,24,9,Depression,Moderate,1,Excellent,8.9,None,True,None
+503,24,Male,8,7,28,7,None,Moderate,2,Very Good,8.3,Alcohol,False,Obesity
+504,32,Female,6,9,39,8,None,Moderate,1,Fair,5.6,Alcohol,True,Hypertension
+505,30,Female,6,4,35,8,None,Low,5,Fair,4.3,Alcohol,True,None
+506,22,Male,8,5,0,9,Depression,Low,4,Good,6.4,Alcohol,True,Obesity
+507,34,Male,7,6,7,10,Depression,Moderate,5,Good,10.0,Smoking,True,None
+508,32,Female,8,7,48,5,None,High,2,Very Good,9.3,Alcohol,True,Obesity
+509,34,Female,5,5,27,8,None,Low,7,Very Good,4.8,None,True,None
+510,31,Female,7,4,19,6,None,Low,6,Good,4.7,Alcohol,True,Other Chronic Illness
+511,29,Female,5,7,2,8,None,Moderate,3,Excellent,9.5,Both,True,Obesity
+512,26,Male,5,7,8,7,None,Low,3,Good,4.7,Alcohol,True,Other Chronic Illness
+513,34,Female,8,4,0,8,None,High,8,Fair,8.0,Alcohol,True,Hypertension
+514,33,Female,6,8,27,8,None,Moderate,1,Very Good,5.8,Alcohol,False,None
+515,20,Male,7,8,18,8,None,High,1,Fair,10.2,Both,True,Obesity
+516,20,Female,7,6,10,8,None,Moderate,3,Very Good,5.5,Alcohol,True,Obesity
+517,25,Male,6,6,28,9,None,Moderate,4,Excellent,9.3,None,True,Other Chronic Illness
+518,32,Female,8,7,37,8,None,Moderate,1,Good,7.4,Both,True,None
+519,35,Female,5,4,71,6,Moderate Anxiety,Moderate,6,Good,7.5,Smoking,True,Obesity
+520,22,Male,8,6,0,9,Mild Anxiety,Moderate,5,Good,3.1,None,True,None
+521,29,Male,9,1,53,7,None,Low,9,Good,2.6,Alcohol,True,Hypertension
+522,25,Female,7,7,49,8,None,Moderate,2,Good,6.6,Alcohol,True,None
+523,35,Female,9,2,14,8,Moderate Anxiety,Moderate,7,Good,7.5,None,True,None
+524,33,Female,5,9,34,8,Depression,High,1,Very Good,4.7,Both,True,Obesity
+525,33,Male,7,5,20,6,None,Moderate,4,Good,4.8,Alcohol,False,None
+526,27,Female,6,5,33,8,None,Moderate,6,Fair,8.1,Smoking,True,Diabetes
+527,26,Male,8,4,60,10,None,Low,7,Good,8.1,None,True,Hypertension
+528,24,Male,9,5,42,8,None,Moderate,5,Very Good,6.7,Alcohol,True,None
+529,20,Female,6,8,40,8,None,Moderate,1,Good,8.6,None,True,None
+530,33,Male,8,1,21,8,None,High,10,Good,4.7,Alcohol,False,Hypertension
+531,32,Female,6,8,0,7,Mild Anxiety,High,3,Very Good,6.3,Alcohol,True,None
+532,35,Female,7,6,25,8,None,Low,3,Good,10.3,Alcohol,True,Obesity
+533,35,Female,7,3,54,9,None,High,6,Good,7.1,None,True,Other Chronic Illness
+534,28,Female,9,3,0,6,None,Low,5,Very Good,7.3,None,True,None
+535,31,Female,7,9,8,7,None,Moderate,1,Fair,11.6,None,True,None
+536,34,Male,7,4,32,7,None,Moderate,6,Excellent,4.2,None,True,None
+537,33,Male,5,3,10,8,None,Low,5,Fair,8.6,Alcohol,True,Obesity
+538,23,Female,6,8,14,11,Depression,Moderate,1,Poor,10.3,Alcohol,False,None
+539,26,Female,6,6,21,6,None,Low,2,Very Good,6.4,Alcohol,True,None
+540,21,Male,6,4,2,8,Mild Anxiety,Low,5,Fair,8.7,Alcohol,True,Hypertension
+541,34,Male,8,6,10,7,Depression,Moderate,4,Very Good,5.0,None,True,Other Chronic Illness
+542,29,Male,7,3,44,11,None,Moderate,6,Very Good,5.6,None,True,None
+543,23,Male,7,8,3,6,None,High,1,Very Good,7.8,None,True,None
+544,30,Female,5,8,0,8,None,Moderate,1,Excellent,8.6,Smoking,True,Other Chronic Illness
+545,29,Female,8,7,17,9,Depression,Moderate,3,Fair,9.2,Alcohol,True,Obesity
+546,25,Male,8,6,44,9,Depression,Moderate,3,Very Good,10.1,None,False,Obesity
+547,21,Female,5,9,26,8,Moderate Anxiety,Low,1,Fair,6.9,None,True,Hypertension
+548,30,Male,8,5,20,8,None,Low,4,Good,9.4,Smoking,True,Other Chronic Illness
+549,28,Female,7,3,30,8,Mild Anxiety,Moderate,7,Very Good,6.3,Alcohol,True,Obesity
+550,31,Male,5,6,0,7,None,Moderate,3,Good,8.8,Alcohol,True,Obesity
+551,28,Female,7,10,39,7,None,Moderate,1,Good,7.4,Alcohol,True,Obesity
+552,33,Male,7,3,37,8,None,Moderate,8,Good,7.9,None,True,Obesity
+553,28,Male,6,5,21,7,None,Moderate,4,Good,7.8,Both,True,None
+554,28,Female,9,6,50,7,Severe Anxiety,Low,3,Excellent,3.8,Alcohol,True,None
+555,33,Male,8,5,7,8,None,Low,6,Poor,4.8,None,True,Obesity
+556,26,Female,8,4,52,11,None,High,9,Good,7.2,Smoking,True,None
+557,21,Female,7,8,33,8,None,Moderate,1,Very Good,3.6,Alcohol,True,Hypertension
+558,20,Male,7,10,23,6,Depression,High,1,Good,8.7,None,True,None
+559,31,Female,8,6,29,6,Moderate Anxiety,Low,3,Fair,8.7,Alcohol,False,Obesity
+560,29,Female,7,4,27,11,None,High,5,Good,7.7,None,True,None
+561,30,Female,5,2,54,7,None,Low,7,Good,4.8,None,True,Obesity
+562,23,Female,7,6,8,6,None,Low,2,Fair,9.8,Alcohol,True,Diabetes
+563,22,Female,8,8,14,8,Depression,High,1,Very Good,11.1,None,True,None
+564,20,Male,7,6,50,8,None,Low,2,Good,7.3,Smoking,True,Hypertension
+565,25,Female,5,5,18,8,None,Moderate,5,Excellent,8.0,Both,True,None
+566,29,Female,8,4,48,7,None,Low,6,Very Good,7.4,None,True,None
+567,26,Female,6,3,63,5,None,Moderate,7,Good,8.1,Alcohol,True,None
+568,26,Female,6,7,21,11,Depression,High,2,Poor,6.8,Smoking,True,None
+569,34,Female,6,7,43,7,None,Moderate,2,Good,6.9,Alcohol,False,Other Chronic Illness
+570,25,Male,6,2,6,8,None,Moderate,8,Fair,8.8,Alcohol,True,None
+571,27,Female,8,9,45,9,None,Low,1,Very Good,11.7,None,True,Obesity
+572,32,Male,7,7,33,8,None,Moderate,2,Fair,4.2,Alcohol,True,None
+573,26,Male,6,8,39,8,Depression,Moderate,1,Fair,6.8,Alcohol,True,Obesity
+574,29,Male,8,3,17,7,None,Low,6,Good,4.6,Both,True,None
+575,33,Male,8,3,0,8,Depression,Moderate,4,Fair,10.2,None,True,Obesity
+576,34,Female,8,5,40,10,Moderate Anxiety,Low,6,Fair,5.8,Both,True,Obesity
+577,22,Male,6,7,0,10,None,High,2,Good,4.1,None,True,Obesity
+578,34,Male,7,9,23,6,None,Moderate,2,Fair,8.3,Both,True,None
+579,27,Female,9,7,48,7,None,Low,4,Poor,10.5,Alcohol,True,Obesity
+580,23,Female,8,5,33,10,Moderate Anxiety,Moderate,3,Good,8.3,Alcohol,True,None
+581,27,Female,5,3,68,9,None,Moderate,5,Very Good,7.4,Alcohol,True,None
+582,35,Male,5,8,50,10,None,Moderate,4,Good,7.8,None,True,None
+583,27,Female,7,4,16,7,None,High,7,Good,9.8,None,True,None
+584,25,Female,8,9,30,8,Moderate Anxiety,Moderate,1,Good,5.3,None,True,None
+585,29,Male,7,5,29,9,None,High,5,Good,6.8,None,True,Obesity
+586,23,Female,7,9,0,8,None,Moderate,1,Excellent,6.1,None,False,None
+587,21,Female,5,7,11,8,None,Low,3,Poor,4.7,Alcohol,False,None
+588,21,Female,8,5,18,5,None,Moderate,4,Good,6.3,Alcohol,True,None
+589,21,Female,8,4,0,8,Depression,Moderate,3,Very Good,9.2,None,True,Obesity
+590,22,Male,7,5,30,7,None,Moderate,3,Very Good,8.1,Smoking,True,Hypertension
+591,22,Female,8,6,25,8,Depression,High,4,Fair,8.3,Alcohol,False,None
+592,29,Female,9,6,0,11,Mild Anxiety,Moderate,2,Fair,7.3,Both,True,Obesity
+593,22,Male,6,4,38,8,None,High,5,Very Good,8.0,Alcohol,True,Hypertension
+594,25,Female,7,5,44,9,Mild Anxiety,Moderate,3,Fair,5.4,None,True,None
+595,33,Male,6,6,34,7,None,Moderate,3,Very Good,6.4,Alcohol,True,Hypertension
+596,27,Female,8,1,23,8,None,Moderate,9,Very Good,7.4,Alcohol,True,Diabetes
+597,30,Male,7,6,41,11,Mild Anxiety,Moderate,4,Very Good,7.6,None,False,Obesity
+598,22,Male,7,4,43,6,None,High,5,Fair,7.6,None,True,None
+599,22,Male,8,3,36,5,Mild Anxiety,Moderate,7,Very Good,6.7,None,True,None
+600,20,Male,7,2,13,8,None,Low,8,Good,6.2,None,True,None
+601,22,Female,8,2,35,6,Depression,Moderate,9,Very Good,12.0,Alcohol,True,Diabetes
+602,24,Male,7,3,53,9,None,Moderate,6,Poor,8.8,Alcohol,True,Obesity
+603,22,Female,6,4,18,10,None,Low,5,Poor,7.8,None,True,None
+604,21,Male,8,9,71,8,None,Low,1,Good,6.5,Alcohol,True,None
+605,21,Male,8,4,19,7,Moderate Anxiety,Moderate,5,Fair,6.1,Alcohol,True,Obesity
+606,27,Male,6,6,30,8,Severe Anxiety,Moderate,4,Good,6.7,None,True,Obesity
+607,23,Female,8,6,16,9,None,Moderate,5,Very Good,7.6,None,True,Obesity
+608,25,Male,8,6,34,5,Depression,Low,4,Good,3.2,None,True,Diabetes
+609,27,Female,6,5,0,8,None,Low,3,Very Good,3.9,Alcohol,True,Obesity
+610,30,Female,9,3,19,8,None,Moderate,8,Poor,5.7,None,True,None
+611,20,Female,6,8,8,8,Depression,Moderate,1,Fair,7.4,Alcohol,True,None
+612,32,Female,6,9,32,7,Depression,Low,1,Poor,6.5,Alcohol,True,None
+613,29,Female,6,2,49,9,Mild Anxiety,Moderate,7,Good,10.0,Alcohol,True,Obesity
+614,21,Female,8,3,42,6,Depression,Moderate,7,Very Good,4.0,None,True,None
+615,33,Female,8,5,0,7,None,Low,3,Fair,5.5,None,True,None
+616,34,Female,6,4,70,10,Depression,Low,7,Good,10.0,Alcohol,True,None
+617,20,Female,7,7,35,9,None,Low,1,Good,7.3,Smoking,True,None
+618,24,Male,7,4,14,5,None,High,5,Excellent,8.8,Alcohol,True,Obesity
+619,32,Male,5,10,33,7,None,Moderate,1,Fair,11.1,Alcohol,True,None
+620,31,Male,8,8,33,7,None,Moderate,1,Fair,5.6,Alcohol,True,None
+621,22,Male,8,6,16,7,None,Moderate,4,Poor,6.8,Alcohol,True,Obesity
+622,23,Male,7,8,33,7,None,Moderate,3,Good,6.5,Smoking,True,None
+623,25,Female,9,8,17,6,None,Moderate,4,Fair,3.1,None,True,Obesity
+624,27,Female,7,4,21,8,None,Moderate,6,Very Good,6.4,Both,True,Obesity
+625,29,Female,9,4,16,9,None,Low,7,Good,8.8,Alcohol,True,Obesity
+626,25,Female,8,6,1,8,None,Moderate,4,Good,8.1,Alcohol,True,Obesity
+627,27,Female,7,7,32,8,None,Moderate,3,Good,8.2,None,True,None
+628,31,Female,6,6,41,6,Moderate Anxiety,Moderate,3,Fair,6.2,Alcohol,True,Hypertension
+629,20,Female,8,2,40,11,Depression,Moderate,8,Good,5.7,Alcohol,True,None
+630,23,Male,7,4,46,9,Moderate Anxiety,Low,6,Excellent,9.5,None,True,None
+631,31,Male,6,5,36,9,None,Moderate,4,Very Good,6.0,None,True,None
+632,33,Male,5,5,19,9,Moderate Anxiety,Moderate,4,Very Good,7.6,Smoking,True,None
+633,27,Male,7,9,46,10,None,High,1,Very Good,7.3,Alcohol,True,Obesity
+634,28,Female,7,3,2,8,None,Moderate,7,Fair,9.9,Alcohol,True,None
+635,21,Female,8,7,11,7,None,Moderate,1,Fair,8.9,None,True,Hypertension
+636,26,Female,8,8,10,8,Depression,Moderate,1,Poor,4.4,Alcohol,True,None
+637,28,Male,5,10,51,9,None,High,1,Good,4.6,Alcohol,True,None
+638,23,Female,8,5,48,9,None,Moderate,6,Fair,8.2,Alcohol,False,Other Chronic Illness
+639,24,Female,6,6,39,8,None,Moderate,5,Good,6.9,Alcohol,False,None
+640,25,Female,8,7,51,6,Depression,Moderate,3,Good,6.1,Alcohol,False,Diabetes
+641,20,Male,8,6,12,8,Mild Anxiety,Moderate,4,Very Good,9.0,Alcohol,True,None
+642,24,Female,7,5,36,10,None,High,6,Very Good,7.4,None,True,None
+643,23,Male,8,6,27,8,None,Low,5,Excellent,7.1,Both,True,None
+644,25,Male,6,1,46,8,None,Low,7,Poor,8.6,Alcohol,True,Obesity
+645,21,Male,7,7,27,7,Mild Anxiety,High,1,Poor,6.2,None,True,None
+646,33,Male,8,6,22,8,None,Moderate,5,Good,10.1,Alcohol,True,None
+647,29,Female,7,5,40,10,Depression,Moderate,4,Fair,5.4,Smoking,False,None
+648,30,Male,7,10,47,8,None,Moderate,1,Fair,8.3,None,True,Obesity
+649,32,Male,7,4,16,9,Mild Anxiety,Low,4,Good,9.9,None,True,Obesity
+650,27,Female,8,5,28,8,None,Moderate,4,Fair,4.2,Alcohol,True,Hypertension
+651,21,Female,6,9,8,8,None,Moderate,1,Good,6.3,None,True,None
+652,28,Male,6,4,0,7,None,Moderate,8,Good,9.3,Alcohol,True,Obesity
+653,29,Female,8,4,34,9,None,Moderate,5,Good,9.3,None,True,Obesity
+654,31,Male,8,5,42,8,None,High,4,Good,6.7,Alcohol,True,Obesity
+655,26,Male,5,7,35,8,Severe Anxiety,Low,3,Good,5.5,None,True,Obesity
+656,21,Male,6,6,0,8,None,High,4,Fair,8.9,None,True,Obesity
+657,24,Male,6,3,22,10,Mild Anxiety,Low,7,Fair,9.4,Smoking,True,None
+658,25,Female,6,4,0,6,Depression,Moderate,7,Good,4.7,Alcohol,True,Obesity
+659,30,Male,7,4,57,9,None,High,5,Very Good,4.6,Alcohol,True,Obesity
+660,28,Female,8,5,8,7,Moderate Anxiety,Moderate,4,Very Good,7.5,None,True,None
+661,25,Female,8,6,55,8,Mild Anxiety,Moderate,4,Good,8.3,Alcohol,True,None
+662,35,Female,7,6,48,5,None,Moderate,3,Fair,6.4,Alcohol,True,Other Chronic Illness
+663,29,Female,7,2,11,8,Depression,Moderate,7,Good,8.4,Both,True,None
+664,23,Male,8,8,7,8,None,Low,2,Good,5.6,Both,False,Obesity
+665,21,Female,7,6,37,6,None,High,4,Good,2.8,Alcohol,True,None
+666,22,Male,9,8,13,8,Moderate Anxiety,Moderate,1,Good,6.2,Alcohol,True,None
+667,23,Female,7,6,32,10,None,Moderate,4,Good,7.1,Alcohol,True,None
+668,22,Female,6,8,20,6,None,Moderate,1,Good,6.4,Alcohol,True,None
+669,22,Male,8,6,0,9,None,Low,4,Very Good,4.7,None,True,None
+670,24,Male,6,8,0,8,Depression,Low,2,Fair,3.4,None,True,None
+671,22,Male,8,7,34,8,Depression,Moderate,4,Very Good,6.0,None,True,Obesity
+672,33,Female,5,5,18,7,None,Moderate,6,Fair,8.8,None,False,Other Chronic Illness
+673,21,Female,6,10,18,7,Mild Anxiety,Moderate,1,Fair,9.5,None,True,None
+674,28,Male,8,7,43,7,Depression,High,4,Excellent,9.4,Alcohol,True,Hypertension
+675,26,Male,6,7,53,6,None,Low,3,Excellent,5.4,Alcohol,True,Hypertension
+676,35,Male,8,3,24,7,None,Moderate,7,Poor,4.7,Alcohol,True,Hypertension
+677,21,Male,6,3,23,8,Mild Anxiety,Low,7,Good,8.0,None,True,Hypertension
+678,26,Female,7,6,40,10,Depression,Moderate,4,Fair,8.3,None,True,None
+679,35,Male,8,6,2,9,Depression,Low,3,Good,7.8,Alcohol,True,None
+680,33,Male,7,4,34,8,None,High,6,Very Good,3.0,None,True,None
+681,32,Male,6,6,41,6,None,Low,3,Excellent,5.3,Alcohol,True,None
+682,23,Male,6,9,43,7,None,High,1,Good,6.9,Both,True,Obesity
+683,22,Female,5,7,0,8,None,Moderate,4,Good,8.0,None,True,None
+684,30,Male,6,3,14,7,None,High,7,Good,8.5,None,True,Obesity
+685,34,Female,8,5,12,8,Severe Anxiety,Moderate,7,Good,7.3,Alcohol,True,Obesity
+686,28,Male,9,4,31,8,None,High,4,Very Good,7.7,Both,False,Other Chronic Illness
+687,28,Male,8,5,39,8,Depression,Low,4,Very Good,7.2,Alcohol,True,Obesity
+688,24,Female,8,5,59,8,None,Moderate,5,Good,8.4,Smoking,True,None
+689,31,Male,8,5,20,9,None,High,6,Good,7.6,None,False,Hypertension
+690,22,Female,8,3,20,9,None,Low,7,Fair,7.1,Both,False,None
+691,24,Female,6,5,52,8,None,Low,5,Poor,6.5,None,True,Obesity
+692,26,Male,8,4,35,10,None,Moderate,4,Very Good,7.2,None,True,Obesity
+693,27,Female,8,1,55,11,Depression,High,7,Good,8.0,Smoking,True,Obesity
+694,23,Female,7,10,35,8,Depression,Moderate,1,Good,7.5,Both,True,None
+695,21,Female,5,8,6,8,None,Moderate,1,Good,7.8,None,True,Obesity
+696,29,Female,7,5,3,8,None,Low,4,Very Good,9.7,None,True,None
+697,24,Female,7,6,0,10,Depression,Low,4,Fair,7.5,None,True,None
+698,28,Female,8,3,43,10,None,High,6,Very Good,5.7,None,True,Obesity
+699,22,Female,7,9,53,6,None,Low,2,Very Good,8.8,None,True,None
+700,27,Female,7,9,66,8,None,Moderate,2,Excellent,4.3,Both,True,Other Chronic Illness
+701,28,Male,9,6,46,8,Depression,High,2,Good,4.8,Alcohol,True,None
+702,20,Male,5,8,53,8,None,Low,1,Fair,7.7,Alcohol,True,Obesity
+703,25,Female,7,6,18,7,None,Moderate,1,Good,8.0,Alcohol,True,None
+704,21,Male,5,3,6,10,Depression,Low,6,Good,4.5,Alcohol,True,Obesity
+705,20,Female,8,5,47,8,None,Moderate,5,Fair,6.2,Alcohol,True,Obesity
+706,35,Female,8,6,38,9,None,Low,3,Good,5.8,Alcohol,True,Obesity
+707,24,Male,6,5,32,10,None,Moderate,5,Good,6.0,None,True,None
+708,32,Female,8,5,37,9,Depression,Moderate,3,Very Good,8.9,Alcohol,True,Other Chronic Illness
+709,23,Female,6,5,36,8,None,Moderate,5,Poor,8.4,Alcohol,True,None
+710,30,Female,8,5,55,8,Depression,Moderate,4,Good,7.0,Smoking,True,None
+711,31,Female,8,6,55,7,Mild Anxiety,Low,4,Very Good,5.9,Both,True,None
+712,29,Male,8,3,40,8,None,Moderate,6,Very Good,4.3,Alcohol,True,Obesity
+713,27,Female,5,4,46,7,Depression,Moderate,4,Very Good,9.8,Alcohol,True,None
+714,26,Female,9,3,40,8,None,Moderate,5,Very Good,8.2,None,True,Obesity
+715,25,Female,8,7,20,7,None,Low,3,Very Good,5.6,Alcohol,True,Obesity
+716,34,Male,6,1,45,6,None,Moderate,9,Good,8.4,Alcohol,False,None
+717,32,Female,8,8,2,7,None,Low,3,Good,6.9,None,True,Other Chronic Illness
+718,35,Male,6,8,51,5,None,Moderate,2,Poor,6.4,Alcohol,True,None
+719,21,Male,8,5,6,9,None,Low,5,Poor,7.9,Alcohol,False,Obesity
+720,31,Female,5,1,35,9,None,Moderate,7,Fair,5.5,None,True,None
+721,34,Female,8,5,13,8,Depression,Low,4,Fair,6.3,Both,True,Hypertension
+722,22,Male,7,5,41,7,None,High,4,Fair,7.2,None,True,None
+723,20,Female,5,3,29,6,Depression,High,8,Fair,6.0,Both,True,None
+724,31,Male,6,4,0,5,None,Low,6,Poor,8.3,Alcohol,True,None
+725,28,Male,5,9,38,7,None,Moderate,2,Very Good,10.7,None,True,None
+726,33,Female,7,7,18,10,None,Low,3,Poor,5.5,Alcohol,True,None
+727,22,Female,6,4,47,7,None,Moderate,5,Very Good,3.7,Alcohol,True,None
+728,32,Male,7,2,30,8,None,Moderate,8,Fair,3.0,Alcohol,True,None
+729,23,Male,6,5,37,6,Severe Anxiety,Moderate,5,Very Good,6.7,Alcohol,True,Obesity
+730,22,Male,6,5,10,7,Depression,Moderate,4,Very Good,5.7,Alcohol,True,Hypertension
+731,22,Male,8,6,18,8,Depression,Low,3,Good,7.4,Alcohol,True,Obesity
+732,32,Female,5,4,20,8,None,Moderate,5,Good,7.3,Both,True,Diabetes
+733,30,Female,8,7,47,7,Depression,Low,4,Poor,3.8,None,True,Obesity
+734,28,Female,8,9,63,6,None,Moderate,1,Excellent,3.4,Alcohol,True,Obesity
+735,25,Female,8,7,13,8,None,Moderate,4,Very Good,7.6,None,True,None
+736,33,Female,7,5,51,7,Depression,Moderate,4,Very Good,7.3,Alcohol,False,Obesity
+737,26,Male,8,5,0,7,Mild Anxiety,Low,3,Good,6.1,Alcohol,True,None
+738,32,Female,6,5,6,11,None,Moderate,6,Good,3.7,None,True,Obesity
+739,26,Female,5,8,10,8,None,Moderate,2,Very Good,7.9,None,True,Obesity
+740,25,Female,6,4,2,8,None,Low,7,Fair,9.5,None,True,None
+741,27,Female,8,6,0,8,Moderate Anxiety,Moderate,4,Good,7.6,Alcohol,True,Obesity
+742,24,Female,5,6,38,8,None,High,6,Fair,5.3,Alcohol,True,None
+743,31,Male,7,4,25,8,Depression,High,6,Very Good,7.1,Both,True,None
+744,27,Male,9,3,37,8,None,Moderate,6,Fair,4.3,Alcohol,True,None
+745,23,Male,8,6,43,9,None,Moderate,4,Fair,9.1,None,True,Obesity
+746,33,Female,7,5,35,7,None,Low,6,Good,7.2,Smoking,True,Obesity
+747,25,Male,5,7,43,8,None,High,2,Very Good,3.5,Alcohol,False,Obesity
+748,28,Male,8,4,28,8,None,Low,5,Good,6.4,Alcohol,True,None
+749,34,Female,7,8,6,10,Moderate Anxiety,High,1,Fair,7.9,None,True,Hypertension
+750,29,Female,5,4,51,8,Depression,Moderate,3,Poor,6.3,Alcohol,True,Obesity
+751,21,Female,5,9,18,8,Depression,Moderate,1,Very Good,6.4,Both,True,None
+752,34,Male,8,2,11,6,Depression,High,6,Excellent,4.6,Alcohol,True,Obesity
+753,29,Male,8,6,26,8,Depression,Low,4,Very Good,8.1,None,True,None
+754,25,Female,8,6,11,6,None,Moderate,4,Good,5.7,Alcohol,True,None
+755,22,Female,8,4,21,8,Depression,Moderate,5,Very Good,2.7,Both,True,None
+756,32,Male,7,6,36,6,None,Low,5,Good,6.3,None,True,Obesity
+757,29,Male,7,8,36,8,None,Moderate,1,Good,9.0,Alcohol,True,None
+758,28,Female,7,1,12,7,None,Moderate,10,Good,6.2,Both,False,None
+759,33,Female,6,7,20,8,None,Moderate,3,Good,10.5,None,False,None
+760,32,Male,7,1,51,10,None,Low,7,Very Good,7.9,Alcohol,True,None
+761,22,Female,8,4,39,7,Depression,High,8,Good,7.7,Alcohol,True,None
+762,24,Male,7,9,71,8,None,Low,1,Good,6.7,Alcohol,True,None
+763,23,Male,8,4,53,8,None,Low,5,Fair,6.9,Alcohol,True,Obesity
+764,31,Male,7,3,52,5,None,Low,5,Poor,6.5,None,True,None
+765,20,Male,7,5,2,9,None,Low,4,Good,6.4,Alcohol,True,Obesity
+766,28,Female,7,10,45,6,None,Low,1,Fair,8.1,None,True,Obesity
+767,31,Female,7,2,28,8,None,High,8,Fair,5.1,Alcohol,True,None
+768,33,Male,8,3,18,8,None,Moderate,6,Good,4.8,None,True,None
+769,25,Male,6,8,33,8,None,Low,2,Good,4.8,None,True,Obesity
+770,32,Male,7,9,48,8,Severe Anxiety,Low,1,Very Good,11.1,Both,True,None
+771,21,Male,5,5,40,7,Moderate Anxiety,Moderate,3,Good,8.1,Alcohol,True,None
+772,33,Male,7,3,12,5,None,High,6,Very Good,7.6,Both,True,None
+773,21,Female,7,10,44,9,None,Low,1,Excellent,4.9,None,True,Diabetes
+774,26,Female,8,9,17,8,None,Low,1,Very Good,8.2,Alcohol,True,Hypertension
+775,32,Female,9,7,34,9,Severe Anxiety,Low,2,Good,6.8,None,True,Other Chronic Illness
+776,22,Female,7,4,23,9,None,Low,6,Good,7.4,Alcohol,True,Obesity
+777,23,Male,8,5,25,9,None,Low,6,Excellent,5.0,Alcohol,True,None
+778,31,Male,7,5,45,8,Severe Anxiety,Moderate,4,Fair,7.3,None,True,None
+779,31,Male,7,6,9,8,None,Low,5,Fair,6.2,Both,True,None
+780,29,Male,5,8,68,9,None,Moderate,1,Good,5.5,None,False,None
+781,30,Male,6,7,0,8,None,Low,4,Poor,8.5,Alcohol,True,None
+782,28,Female,7,3,18,7,Depression,High,6,Excellent,3.9,Both,True,None
+783,23,Male,7,8,37,10,Depression,High,1,Good,8.1,Smoking,True,None
+784,25,Female,5,6,41,10,Mild Anxiety,Moderate,4,Good,8.4,Both,True,None
+785,22,Female,6,7,27,8,None,Moderate,2,Good,5.2,None,True,None
+786,34,Female,6,8,28,6,None,Moderate,1,Good,5.4,None,True,Other Chronic Illness
+787,29,Female,9,3,38,8,Depression,Moderate,6,Poor,6.6,None,True,Hypertension
+788,26,Male,6,5,25,9,Depression,Moderate,4,Good,7.6,Alcohol,True,Other Chronic Illness
+789,27,Female,7,4,57,10,None,Moderate,7,Very Good,6.7,Alcohol,True,None
+790,34,Female,6,2,46,7,Depression,High,6,Good,7.9,None,True,None
+791,22,Female,7,6,47,6,None,High,4,Very Good,10.5,Alcohol,True,None
+792,29,Male,6,10,10,10,None,Moderate,1,Fair,6.0,None,True,None
+793,27,Male,6,2,28,8,Mild Anxiety,Moderate,8,Fair,3.6,None,True,None
+794,29,Male,7,5,23,8,None,Low,6,Fair,8.7,Alcohol,True,Other Chronic Illness
+795,20,Female,5,7,9,11,Depression,Low,2,Good,10.4,Alcohol,True,Other Chronic Illness
+796,33,Female,5,6,37,6,None,Moderate,3,Very Good,7.8,Smoking,True,None
+797,34,Male,6,5,19,8,None,Low,5,Very Good,4.8,None,True,None
+798,28,Female,5,3,43,6,Depression,High,7,Good,6.8,Alcohol,True,None
+799,30,Male,5,6,8,8,Depression,Low,3,Good,4.8,None,True,None
+800,34,Male,6,4,64,9,None,Moderate,6,Very Good,8.3,None,True,None
+801,30,Female,8,1,12,8,None,Moderate,8,Fair,4.3,Alcohol,True,None
+802,22,Female,7,8,34,11,None,Moderate,1,Fair,6.4,Smoking,True,None
+803,28,Female,7,7,45,8,None,Moderate,2,Excellent,5.0,None,True,None
+804,29,Female,6,6,18,8,Depression,High,5,Good,7.3,None,True,None
+805,26,Male,9,6,47,7,Depression,Moderate,1,Excellent,6.3,Alcohol,True,None
+806,31,Male,7,8,5,8,None,Moderate,2,Good,7.4,None,True,None
+807,34,Male,5,6,59,8,None,Low,4,Good,7.0,Smoking,True,Other Chronic Illness
+808,34,Male,7,7,30,6,None,Moderate,1,Fair,5.0,Alcohol,False,None
+809,26,Male,5,5,18,8,Depression,High,5,Fair,8.3,None,True,Obesity
+810,21,Female,6,8,24,8,None,Moderate,2,Good,6.9,Alcohol,True,Obesity
+811,35,Male,7,6,46,9,None,High,4,Good,5.0,Alcohol,True,Other Chronic Illness
+812,33,Male,8,6,18,8,None,Moderate,1,Fair,11.5,None,True,Obesity
+813,21,Male,7,3,15,9,None,Low,8,Fair,8.0,Alcohol,True,Obesity
+814,34,Female,8,6,25,5,None,Low,3,Poor,6.7,None,True,Obesity
+815,33,Female,9,4,6,7,None,Moderate,6,Good,9.8,Alcohol,True,None
+816,28,Female,6,4,66,8,Depression,Moderate,6,Good,10.7,None,True,None
+817,29,Female,6,4,18,8,Depression,Moderate,5,Fair,6.7,Smoking,True,Other Chronic Illness
+818,26,Male,7,3,46,5,Severe Anxiety,Low,7,Fair,7.7,Alcohol,True,Obesity
+819,20,Male,7,10,34,9,None,Moderate,1,Fair,5.0,None,True,Other Chronic Illness
+820,25,Female,7,8,10,9,None,Moderate,1,Good,6.7,Smoking,True,Obesity
+821,32,Female,8,9,29,8,Mild Anxiety,Moderate,2,Fair,6.6,None,True,Obesity
+822,20,Male,8,3,45,6,None,Low,6,Very Good,7.4,Alcohol,True,Obesity
+823,25,Male,7,6,26,9,Depression,Low,3,Poor,7.7,Alcohol,True,Obesity
+824,26,Female,6,3,53,8,Mild Anxiety,Low,6,Fair,8.1,None,True,Hypertension
+825,28,Female,8,4,50,9,None,Low,6,Very Good,7.5,Both,True,Obesity
+826,34,Female,9,4,48,9,Depression,Low,5,Very Good,4.6,Alcohol,True,Obesity
+827,25,Female,8,8,20,9,Depression,Low,2,Fair,5.1,None,True,Obesity
+828,25,Male,5,5,8,8,None,Moderate,3,Very Good,5.9,Alcohol,False,Obesity
+829,31,Male,7,8,17,6,None,Moderate,1,Good,6.4,Alcohol,True,None
+830,26,Male,5,7,33,8,None,High,2,Very Good,9.1,Both,True,None
+831,23,Female,6,10,40,8,None,Low,1,Good,4.7,None,True,Obesity
+832,26,Female,5,3,0,9,None,Moderate,6,Good,6.3,Alcohol,True,Hypertension
+833,22,Male,7,8,29,7,None,Moderate,3,Excellent,8.9,Alcohol,True,None
+834,22,Male,8,8,33,7,Depression,Low,2,Fair,6.4,Alcohol,True,None
+835,27,Male,5,4,24,10,None,High,5,Good,7.9,Alcohol,True,Obesity
+836,26,Male,7,8,55,9,None,Low,1,Good,6.7,None,True,Obesity
+837,34,Female,7,6,38,10,Mild Anxiety,High,3,Poor,7.5,Alcohol,True,Obesity
+838,25,Male,7,5,56,9,None,High,5,Poor,6.5,Alcohol,True,Obesity
+839,28,Male,6,4,25,8,Depression,Moderate,7,Fair,8.3,Both,True,None
+840,29,Male,7,4,48,8,None,Moderate,6,Good,3.9,None,True,None
+841,20,Male,8,10,62,10,None,Moderate,1,Good,6.3,Alcohol,True,None
+842,30,Male,5,6,56,8,None,Moderate,3,Good,7.6,Both,True,Obesity
+843,22,Male,5,7,8,8,Moderate Anxiety,Moderate,2,Poor,8.1,Alcohol,True,None
+844,35,Male,7,4,24,7,None,Low,5,Good,10.0,Smoking,True,Diabetes
+845,22,Female,9,4,23,8,Moderate Anxiety,Low,6,Very Good,6.2,Smoking,True,Hypertension
+846,26,Female,8,8,39,9,None,Moderate,1,Good,10.0,Alcohol,True,Hypertension
+847,21,Female,8,3,43,7,None,Moderate,7,Good,5.7,Alcohol,True,Obesity
+848,35,Female,7,5,13,7,None,High,4,Very Good,9.7,None,True,None
+849,27,Male,7,6,31,8,Depression,Low,4,Very Good,8.6,Alcohol,True,Obesity
+850,29,Female,5,6,0,7,Depression,High,4,Good,5.2,None,True,None
+851,20,Female,7,5,58,7,None,Low,2,Very Good,7.6,Alcohol,False,None
+852,31,Male,8,6,19,8,None,Moderate,6,Good,6.9,Alcohol,True,None
+853,23,Male,7,7,31,10,None,Moderate,2,Very Good,8.3,Alcohol,True,None
+854,33,Female,8,7,23,8,None,Moderate,1,Fair,6.6,None,True,Obesity
+855,23,Female,8,4,52,7,None,Low,6,Fair,6.4,Both,True,Hypertension
+856,22,Male,6,5,0,6,Depression,Moderate,5,Poor,9.7,None,True,None
+857,20,Female,8,8,29,8,Depression,High,1,Very Good,6.8,None,True,None
+858,27,Male,5,7,27,8,None,Moderate,3,Good,8.7,None,True,Diabetes
+859,28,Male,7,3,20,9,None,Moderate,7,Fair,6.5,Both,True,Obesity
+860,20,Male,6,6,64,8,Depression,High,4,Fair,10.3,Both,True,None
+861,32,Male,5,2,12,9,Depression,Moderate,8,Very Good,5.6,Alcohol,True,Hypertension
+862,26,Female,7,6,45,7,None,Moderate,3,Very Good,5.8,Smoking,True,Obesity
+863,28,Male,6,9,37,8,None,Low,2,Good,10.0,None,True,Diabetes
+864,26,Male,7,4,55,7,None,High,4,Good,6.1,Both,True,None
+865,26,Female,7,4,16,10,None,Moderate,6,Good,10.2,None,True,Diabetes
+866,28,Male,5,7,15,8,None,Low,3,Good,8.8,None,True,Diabetes
+867,22,Female,6,2,51,8,None,Low,8,Very Good,6.7,None,True,Obesity
+868,22,Female,7,4,38,7,Mild Anxiety,High,5,Fair,3.4,Alcohol,False,Diabetes
+869,33,Female,6,7,0,7,None,Low,1,Good,7.0,Alcohol,True,Other Chronic Illness
+870,34,Male,8,4,19,8,None,High,6,Good,7.2,Alcohol,True,None
+871,25,Female,8,5,37,7,None,Low,5,Good,9.3,Both,False,Other Chronic Illness
+872,24,Female,8,7,46,8,Depression,Moderate,4,Good,10.2,Alcohol,True,Hypertension
+873,29,Male,8,6,16,7,Depression,Moderate,2,Good,5.6,None,True,Obesity
+874,26,Female,7,6,0,8,None,Moderate,5,Fair,8.6,Alcohol,True,None
+875,20,Female,8,5,40,9,None,High,7,Good,8.5,Alcohol,True,None
+876,22,Female,6,6,5,9,Depression,Moderate,3,Fair,9.1,Smoking,True,Obesity
+877,31,Female,6,5,0,9,None,Moderate,3,Fair,8.0,Alcohol,True,Obesity
+878,30,Female,8,6,0,7,None,Low,3,Fair,3.1,Alcohol,True,None
+879,20,Male,7,5,46,6,None,Low,5,Very Good,6.7,None,True,Hypertension
+880,23,Female,8,5,32,8,None,Low,5,Good,4.7,Alcohol,True,None
+881,23,Female,8,4,25,8,None,Moderate,5,Good,6.6,Both,True,Other Chronic Illness
+882,30,Male,8,5,57,8,Depression,Low,6,Very Good,9.0,None,False,Obesity
+883,20,Male,8,4,42,5,None,Low,4,Good,7.6,Smoking,True,None
+884,21,Male,7,3,62,7,None,Moderate,5,Good,9.3,Alcohol,True,Obesity
+885,32,Female,6,6,2,5,Depression,Moderate,5,Good,7.7,None,True,Obesity
+886,22,Male,7,6,29,10,None,Moderate,1,Good,4.4,Both,False,None
+887,30,Female,7,7,0,7,None,Low,2,Good,2.0,Alcohol,True,Obesity
+888,23,Female,7,5,25,8,None,Low,8,Good,7.3,None,True,None
+889,21,Male,8,6,25,5,None,High,3,Very Good,6.6,None,True,Obesity
+890,23,Male,8,7,42,8,None,Low,1,Very Good,5.0,None,True,None
+891,31,Female,7,6,30,8,None,High,3,Fair,3.6,Smoking,True,None
+892,33,Male,6,4,42,10,Mild Anxiety,High,5,Fair,5.5,Alcohol,True,None
+893,32,Female,7,6,44,10,Mild Anxiety,Moderate,4,Good,6.6,Both,True,None
+894,26,Male,6,6,73,8,Mild Anxiety,Low,4,Fair,8.3,None,True,Obesity
+895,30,Male,8,6,23,10,None,High,2,Poor,7.4,None,True,None
+896,23,Male,6,1,11,11,None,Moderate,10,Very Good,10.2,None,True,None
+897,24,Female,6,6,34,9,None,Moderate,4,Fair,4.9,Alcohol,True,Obesity
+898,33,Male,5,10,13,9,None,Moderate,1,Excellent,8.8,Both,True,None
+899,20,Female,8,5,59,7,Depression,Low,4,Very Good,7.1,Alcohol,True,Hypertension
+900,21,Female,7,4,24,8,None,Low,7,Very Good,8.4,None,True,Other Chronic Illness
+901,23,Female,6,6,18,6,None,Moderate,3,Fair,6.1,Smoking,True,Obesity
+902,20,Female,5,6,20,6,Moderate Anxiety,Moderate,4,Fair,9.1,Alcohol,True,None
+903,22,Male,7,8,44,11,None,Moderate,1,Good,7.6,None,True,None
+904,29,Female,6,3,26,8,None,Moderate,6,Fair,5.6,Smoking,True,Other Chronic Illness
+905,26,Female,8,7,17,9,Depression,Moderate,3,Good,7.0,None,True,None
+906,33,Male,7,7,63,9,Depression,Moderate,2,Good,6.5,None,True,None
+907,32,Female,7,5,12,10,Mild Anxiety,High,4,Fair,8.0,None,True,None
+908,25,Male,6,6,30,11,None,Low,3,Fair,4.6,Alcohol,True,None
+909,23,Female,9,8,43,7,None,Moderate,2,Very Good,6.9,Alcohol,False,Obesity
+910,25,Male,7,7,0,5,Moderate Anxiety,Low,2,Fair,7.8,None,True,Obesity
+911,29,Female,8,3,39,8,None,Moderate,6,Poor,7.1,None,False,Other Chronic Illness
+912,24,Male,6,7,8,6,None,Moderate,3,Good,9.7,Alcohol,True,Obesity
+913,29,Female,7,5,46,5,Depression,High,3,Excellent,8.5,Both,True,None
+914,26,Female,5,6,10,8,None,Low,2,Good,7.0,Alcohol,True,None
+915,28,Male,7,6,43,9,Moderate Anxiety,High,4,Fair,7.4,None,True,Other Chronic Illness
+916,26,Male,9,5,52,8,None,Low,4,Good,7.6,None,True,None
+917,24,Male,7,8,47,8,None,Moderate,3,Very Good,7.8,None,True,None
+918,34,Male,5,5,35,8,None,Low,5,Very Good,3.3,None,True,Obesity
+919,31,Female,5,3,25,7,Depression,High,7,Good,6.4,Alcohol,True,Hypertension
+920,22,Female,7,5,18,5,None,Moderate,6,Good,4.0,Alcohol,True,None
+921,33,Male,6,6,59,9,None,Moderate,3,Good,9.6,Alcohol,True,Obesity
+922,27,Female,5,8,16,8,Mild Anxiety,High,2,Fair,6.9,Alcohol,True,Other Chronic Illness
+923,33,Male,8,7,9,9,Mild Anxiety,Low,2,Good,6.6,None,True,None
+924,32,Male,7,4,43,5,Depression,Low,8,Very Good,8.8,None,True,Obesity
+925,26,Female,6,10,14,9,None,High,1,Excellent,7.8,Alcohol,True,None
+926,20,Female,8,6,10,8,None,Moderate,4,Fair,4.7,None,True,Hypertension
+927,24,Female,5,8,1,8,Depression,Low,2,Poor,6.9,None,True,Obesity
+928,28,Female,9,5,20,8,Mild Anxiety,Moderate,6,Good,6.3,Alcohol,True,Other Chronic Illness
+929,29,Female,6,7,28,10,None,Moderate,2,Good,3.5,None,True,None
+930,23,Female,8,7,34,8,None,Low,2,Very Good,5.6,None,True,None
+931,22,Female,7,8,49,8,Depression,Low,2,Fair,6.6,Smoking,True,None
+932,32,Male,8,8,40,11,None,Low,2,Fair,6.8,Smoking,True,Hypertension
+933,35,Male,9,7,26,9,Mild Anxiety,Moderate,3,Good,4.0,None,True,None
+934,28,Male,6,5,26,8,None,High,4,Good,9.3,None,True,None
+935,22,Male,9,4,40,9,None,High,4,Very Good,6.8,Alcohol,True,None
+936,24,Male,7,6,55,8,None,Moderate,4,Good,7.1,None,False,None
+937,20,Female,7,7,32,7,None,Low,3,Very Good,7.8,Alcohol,True,None
+938,34,Male,6,5,20,8,None,High,4,Good,5.4,None,True,Obesity
+939,21,Male,7,8,10,10,None,Moderate,3,Very Good,7.9,None,True,None
+940,28,Male,6,8,1,10,None,Low,1,Good,6.3,Alcohol,True,None
+941,24,Male,7,4,43,8,Moderate Anxiety,High,4,Very Good,5.2,Smoking,True,Obesity
+942,28,Male,7,4,41,8,Depression,Moderate,5,Fair,8.1,None,True,Obesity
+943,30,Male,8,5,41,7,Severe Anxiety,Moderate,4,Good,10.0,None,True,None
+944,32,Male,8,6,27,11,None,Moderate,4,Fair,8.4,None,True,None
+945,23,Female,7,4,58,11,None,Low,5,Good,8.8,None,True,Obesity
+946,20,Female,6,8,20,8,None,Low,3,Good,6.0,Both,True,None
+947,22,Male,6,6,49,9,Depression,Moderate,5,Fair,3.8,Alcohol,False,Obesity
+948,34,Female,6,6,29,9,Depression,Low,3,Excellent,10.0,Alcohol,True,None
+949,33,Female,5,3,17,8,Depression,Moderate,8,Fair,11.1,Alcohol,True,None
+950,29,Female,6,3,41,6,None,Moderate,5,Very Good,10.1,Smoking,True,None
+951,29,Female,6,6,38,8,None,Moderate,5,Excellent,6.3,Smoking,True,Obesity
+952,30,Male,9,1,37,8,None,Moderate,10,Poor,4.7,None,True,Obesity
+953,22,Female,7,8,31,8,None,Moderate,2,Good,4.9,None,True,None
+954,34,Female,6,5,29,8,None,High,4,Fair,3.6,Alcohol,True,Hypertension
+955,26,Female,7,10,77,10,Depression,Moderate,1,Poor,6.8,Alcohol,True,None
+956,25,Male,6,10,53,7,None,Low,1,Good,10.2,Both,False,None
+957,28,Male,7,5,44,8,None,Low,4,Excellent,6.7,Alcohol,True,Obesity
+958,20,Male,7,5,32,8,None,Moderate,4,Poor,7.6,Both,True,None
+959,22,Male,7,7,50,8,Depression,Low,3,Good,9.8,None,True,Obesity
+960,31,Male,7,9,40,8,None,Low,1,Good,6.2,Smoking,True,Diabetes
+961,21,Male,9,2,30,7,Mild Anxiety,Low,7,Very Good,11.1,None,True,Obesity
+962,29,Male,8,2,23,7,Depression,Moderate,6,Fair,11.0,Both,False,Obesity
+963,23,Female,7,4,28,8,None,High,5,Good,6.7,None,True,None
+964,25,Female,7,7,0,8,Mild Anxiety,Low,4,Good,5.8,Alcohol,True,None
+965,24,Female,7,6,34,7,None,Moderate,3,Good,8.4,Alcohol,True,None
+966,25,Male,6,8,20,9,None,Moderate,1,Excellent,6.3,Alcohol,True,None
+967,31,Male,7,3,61,8,Depression,Low,6,Very Good,4.7,Alcohol,True,None
+968,24,Male,5,1,30,8,Moderate Anxiety,High,9,Poor,9.6,Both,False,None
+969,28,Male,7,7,6,9,None,Moderate,3,Good,9.4,Alcohol,True,Other Chronic Illness
+970,27,Male,7,4,29,7,None,Moderate,2,Good,7.3,Alcohol,True,None
+971,30,Female,6,1,9,5,None,Moderate,10,Good,4.5,None,True,Obesity
+972,34,Female,9,6,39,9,None,Low,5,Good,4.5,Smoking,True,Other Chronic Illness
+973,31,Male,8,7,35,8,None,Moderate,1,Good,7.2,Alcohol,True,Obesity
+974,23,Male,8,5,49,8,None,Low,4,Good,6.0,Alcohol,True,None
+975,20,Male,7,5,14,9,None,High,4,Excellent,6.3,None,True,None
+976,23,Male,8,5,30,9,Depression,Moderate,4,Fair,9.0,Alcohol,True,None
+977,29,Female,6,5,2,11,None,Moderate,5,Very Good,8.5,None,True,None
+978,20,Male,8,3,44,8,None,Low,5,Good,9.8,None,True,None
+979,27,Male,6,4,40,8,None,Moderate,4,Good,5.0,Alcohol,True,Obesity
+980,29,Male,8,7,39,8,Depression,Moderate,4,Very Good,6.3,None,True,None
+981,25,Male,6,6,30,7,None,Moderate,3,Good,8.5,None,True,Hypertension
+982,31,Female,8,6,38,8,None,Moderate,5,Good,7.9,Alcohol,True,Other Chronic Illness
+983,21,Male,9,4,62,7,None,Moderate,6,Good,10.1,None,True,None
+984,21,Male,6,5,24,10,Moderate Anxiety,High,3,Good,7.8,None,True,None
+985,31,Female,7,1,32,8,None,Moderate,9,Very Good,10.7,None,True,Obesity
+986,27,Female,9,6,8,8,Depression,High,3,Very Good,8.1,Alcohol,True,None
+987,30,Female,7,8,12,8,Depression,High,1,Fair,9.1,Alcohol,True,Diabetes
+988,26,Male,8,3,31,6,Severe Anxiety,Moderate,7,Fair,6.4,Alcohol,True,None
+989,23,Male,7,4,52,5,None,Low,6,Good,7.0,None,True,Obesity
+990,32,Female,7,6,24,8,None,Moderate,4,Fair,8.8,None,True,None
+991,32,Female,6,8,25,6,None,High,3,Good,10.2,None,True,None
+992,30,Female,6,5,21,8,Depression,Low,5,Fair,8.5,Alcohol,True,Hypertension
+993,24,Female,8,4,19,10,None,Moderate,4,Good,6.8,Both,True,None
+994,29,Female,7,2,35,10,None,High,7,Poor,9.8,None,True,None
+995,25,Female,7,6,0,8,Mild Anxiety,Moderate,6,Good,2.6,None,True,None
+996,21,Male,7,10,55,7,None,Moderate,1,Good,4.2,None,True,None
+997,34,Male,7,6,16,10,None,Low,6,Good,8.4,Alcohol,True,Hypertension
+998,22,Male,8,5,44,10,None,Low,6,Excellent,7.0,Alcohol,True,Hypertension
+999,34,Female,9,6,4,7,None,Moderate,4,Very Good,8.2,Alcohol,True,Hypertension
+1000,26,Female,7,5,43,9,Depression,Low,5,Good,7.1,Smoking,True,Obesity
