@@ -1,4 +1,118 @@
 ---
 format: html
-title: "K-means clustering project"
+title: "K-Prototypes Clustering Project"
+author: "Tom Heppel"
+mainfont: "Georgia"
 ---
+
+```{python}
+#| echo: false
+#| label: setup
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+from kmodes.kprototypes import KPrototypes
+from sklearn.preprocessing import OneHotEncoder, StandardScaler, RobustScaler
+from sklearn.metrics import silhouette_score
+from scipy.spatial.distance import pdist, squareform
+
+mh = pd.read_csv("Mental_Health_and_Lifestyle_Research.csv")
+
+mh.fillna("None", inplace=True)
+
+encoder = OneHotEncoder(sparse_output=False)
+encoder.set_output(transform="pandas")
+encoder_cols = ["Mental_Health_Status", "Substance_Use", "Physical_Health_Condition"]
+
+# fit and transform relevant columns
+encoded_data = encoder.fit_transform(mh[encoder_cols])
+mh[encoded_data.columns] = encoded_data
+
+# drop original columns
+mh.drop(columns=encoder_cols, inplace=True)
+# also drop None columns
+mh.drop(columns=["Mental_Health_Status_None", "Substance_Use_None", "Physical_Health_Condition_None"], inplace=True)
+# drop person ID
+mh.drop(columns=["Person_ID"], inplace=True)
+
+# not necessary to have 2 columns for Gender and Has_Close_Friends - just apply lambda function
+mh["Gender"] = mh["Gender"].apply(lambda x: 1 if x == "Male" else 0)
+mh["Has_Close_Friends"] = mh["Has_Close_Friends"].apply(lambda x: 1 if x else 0)
+
+SI_map = {
+    "Low": 0,
+    "Moderate": 1,
+    "High": 2
+}
+
+DQ_map = {
+    "Poor": 0,
+    "Fair": 1,
+    "Good": 2,
+    "Very Good": 3,
+    "Excellent": 4
+}
+
+mh["Social_Interaction_Freq"] = mh["Social_Interaction_Freq"].map(SI_map)
+mh["Diet_Quality"] = mh["Diet_Quality"].map(DQ_map)
+
+continuous_cols = ["Age", "Hours_of_Sleep", "Stress_Level", "Physical_Activity","Work_Hours_per_Day",
+                    "Overall_Wellbeing_Score", "Screen_Time_per_Day"]
+
+robust_cols = ["Physical_Activity", "Overall_Wellbeing_Score"]
+standard_cols = [col for col in continuous_cols if col not in robust_cols]
+
+standard_scaler = StandardScaler()
+standard_scaler.fit(mh[standard_cols])
+standard_transformed = standard_scaler.transform(mh[standard_cols])
+
+for i, col in enumerate(standard_cols):
+    mh[col] = standard_transformed[:, i]
+
+robust_scaler = RobustScaler()
+robust_scaler.fit(mh[robust_cols])
+robust_transformed = robust_scaler.transform(mh[robust_cols])
+
+for i, col in enumerate(robust_cols):
+    mh[col] = robust_transformed[:, i]
+
+cat_cols = [2] + list(range(11, 22))
+
+mh_matrix = mh.to_numpy()
+
+final_proto = KPrototypes(n_jobs = 1,n_clusters=6, init='Huang', random_state = 0)
+labels = final_proto.fit_predict(mh_matrix, categorical=cat_cols)
+
+original = pd.read_csv("Mental_Health_and_Lifestyle_Research.csv")
+original.fillna("None", inplace=True)
+original.drop("Person_ID", axis=1, inplace=True)
+
+original["Social_Interaction_Freq"] = original["Social_Interaction_Freq"].map(SI_map)
+original["Diet_Quality"] = original["Diet_Quality"].map(DQ_map)
+
+# Now add this to the original data frame
+original["Cluster"] = labels
+original["Cluster"] = original["Cluster"].astype(str)
+
+cat_columns = ["Gender", "Mental_Health_Status", "Substance_Use", "Has_Close_Friends", "Physical_Health_Condition"]
+num_columns = [col for col in original.columns if col not in cat_columns]
+cat_columns.append("Cluster")
+
+# now group by cluster and get the mode for categorical columns and mean for numerical columns
+output = pd.DataFrame()
+output = pd.concat([output, original[cat_columns].groupby("Cluster").agg(lambda x: x.mode().iloc[0])], axis=1)
+output = pd.concat([output, original[num_columns].groupby("Cluster").mean()], axis=1)
+
+categories = mh.iloc[:, cat_cols]
+categories["Cluster"] = labels.astype(str)
+
+output_proportions = pd.DataFrame()
+output_proportions = pd.concat([output_proportions, original[num_columns].groupby("Cluster").mean()], axis = 1)
+output_proportions = pd.concat([output_proportions, categories.groupby("Cluster").mean()], axis = 1)
+```
+
+## Objective
+
+Mental health research is a critical area of study, particularly in young people, however research at the population level is difficult. Mental health is not a single dimension, and there are many routes to the same mental health problems, and 
