@@ -1,0 +1,16 @@
+p {
+    text-align: justify;
+}
+
+figcaption {
+    text-align: justify;
+}
+
+.title {
+    text-align: center;
+}
+
+.gt_table {
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}

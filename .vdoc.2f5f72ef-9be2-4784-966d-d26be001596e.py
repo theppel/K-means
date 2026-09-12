@@ -1,12 +1,14 @@
----
-format: html
-css: styles.css
-title: "K-Prototypes Clustering Project"
-author: "Tom Heppel"
-mainfont: "Georgia"
----
-
-```{python}
+# type: ignore
+# flake8: noqa
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #| echo: false
 #| label: setup
 
@@ -112,27 +114,27 @@ categories["Cluster"] = labels.astype(str)
 output_proportions = pd.DataFrame()
 output_proportions = pd.concat([output_proportions, original[num_columns].groupby("Cluster").mean()], axis = 1)
 output_proportions = pd.concat([output_proportions, categories.groupby("Cluster").mean()], axis = 1)
-```
-
-## Objective
-
-Mental health research is a critical area of study, particularly in young people, however research at the population level is difficult. Mental health is not a single dimension, and there are most likely many routes to the same mental health problems, and the same factors likely lead to diverging issues. Traditional linear modelling, therefore, is limited in that it is focused on single outcomes. This is especially limiting in terms of policy, as knowledge of conditions can only be built an a condition-by-condition basis.
-
-Partitioning-based clustering methods may offer useful exploratory insights in the case of mental health research in identifying groups for further study. K-means and k-modes are the most commonly used algorithms of this family, however only work when using only one of continuous (k-means) or categorical (k-modes) data. K-prototypes can work with both types of data, and therefore is the most applicable to psychological data, which, more often than not, involves both continuous and categorical data.
-
-This project used a k-prototypes algorithm, aiming to identify clusters in an [online dataset](https://www.kaggle.com/datasets/uom190346a/mental-health-research-dataset/data) containing data on the mental health of young adults.
-
-## Methods
-
-Python was used to perform a k-prototypes algorithm on the dataset linked above. Variables included were: age, gender, hours of sleep, stress level, physical activity, hours worked per day, mental health diagnosis, social interaction frequency, overall wellbeing score ,diet quality, daily screen time, substance use, physical health conditions, and whether the participant had close friends. Analysis was performed using between 2 and 20 clusters in order to identify the optimal number of clusters.
-
-## Results
-
-There was no clear optimal number of clusters, suggesting that the data were not in fact arranged into clear clusters. A reasonable person could choose anywhere between 4 and 7 clusters. This report chose 6, however it should be borne in mind that this may not necessarily be accurate. The following tables 
-
-::: {#table-1}
-**Table 1**
-``` {python}
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 #| echo: false
 #| label: tab-1-1
 
@@ -186,9 +188,9 @@ cat["Cluster"] = range(1, 7)
         locations=loc.header()
     )
 )
-```
-
-``` {python}
+#
+#
+#
 #| echo: false
 #| label: tab-1-2
 
@@ -212,95 +214,38 @@ cat["Cluster"] = range(1, 7)
         locations=loc.header()
     )
 )
-```
-
-:::
-
-::: {#table-2}
-**Table 2**
-``` {python}
+#
+#
+#
+#
+#
+#
+#
 #| echo: false
-#| label: tab-2-1
+#| label: tab-2
 
 categories = mh.iloc[:, cat_cols]
 categories["Cluster"] = labels
 
 props = categories.groupby("Cluster").mean()
 props = props * 100
+props["Cluster"] = range(1, 7)
 
-one_col_names = {
-    "Has_Close_Friends": "Has Close Friends",
-    "Mental_Health_Status_Depression": "Depression",
-    "Mental_Health_Status_Mild Anxiety":"Mild Anxiety",
-    "Mental_Health_Status_Moderate Anxiety":"Moderate Anxiety",
-    "Mental_Health_Status_Severe Anxiety":"Severe Anxiety",
-    "Substance_Use_Alcohol": "Drinks Alcohol",
-    "Substance_Use_Both": "Drinks Alcohol and Smokes",
-    "Substance_Use_Smoking": "Smokes"
-}
-
-two_col_names = {
-    "Physical_Health_Condition_Diabetes": "Diabetes",
-    "Physical_Health_Condition_Hypertension": "Hypertension",
-    "Physical_Health_Condition_Obesity": "Obesity",
-    "Physical_Health_Condition_Other Chronic Illness": "Other Chronic Illness"
-}
-
-one_cols = props.columns[range(9)].tolist()
-two_cols = props.columns[range(9, 13)].tolist()
-
-one = props[one_cols]
-two = props[two_cols]
-
-one["Cluster"] = range(1, 7)
-two["Cluster"] = range(1, 7)
+col_names = [
+    "Gender", "Has Close Friends", "Depression", "Mild Anxiety", "Moderate Anxiety", "Severe Anxiety",
+    "Drinks Alcohol", "Drinks Alcohol and Smokes", "Smokes", "Diabetes", "Hypertension", "Obesity",
+    "Other Chronic Illness"
+]
 
 (
-    GT(one)
+    GT(props)
     .fmt_number(columns=list(props.columns), decimals=1)
     .cols_move_to_start(columns="Cluster")
-    .cols_label(**one_col_names)
+    .cols_label(col_names)
     .fmt_number(columns="Cluster", decimals=0)
-    .tab_style(
-        style=style.text(font="Computer Modern"),
-        locations=[loc.column_labels(), loc.body()]
-    )
-    .tab_style(
-        style=style.text(weight="bold"),
-        locations=[loc.column_labels(), loc.body(columns="Cluster")]
-    )
-    .tab_header("A")
-    .tab_style(
-        style=style.text(font="Computer Modern", weight="bold", align="left"),
-        locations=loc.header()
-    )
 )
-```
-
-``` {python}
-#| echo: false
-#| label: tab-2-2
-
-(
-    GT(two)
-    .fmt_number(columns=list(props.columns), decimals=1)
-    .cols_move_to_start(columns="Cluster")
-    .cols_label(**two_col_names)
-    .fmt_number(columns="Cluster", decimals=0)
-    .tab_style(
-        style=style.text(font="Computer Modern"),
-        locations=[loc.column_labels(), loc.body()]
-    )
-    .tab_style(
-        style=style.text(weight="bold"),
-        locations=[loc.column_labels(), loc.body(columns="Cluster")]
-    )
-    .tab_header("B")
-    .tab_style(
-        style=style.text(font="Computer Modern", weight="bold", align="left"),
-        locations=loc.header()
-    )
-)
-```
-
-:::
+#
+#
+#
+#
+#
