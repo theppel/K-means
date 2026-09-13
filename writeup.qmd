@@ -108,10 +108,6 @@ output = pd.concat([output, original[num_columns].groupby("Cluster").mean()], ax
 
 categories = mh.iloc[:, cat_cols]
 categories["Cluster"] = labels.astype(str)
-
-output_proportions = pd.DataFrame()
-output_proportions = pd.concat([output_proportions, original[num_columns].groupby("Cluster").mean()], axis = 1)
-output_proportions = pd.concat([output_proportions, categories.groupby("Cluster").mean()], axis = 1)
 ```
 
 ## Objective
@@ -128,9 +124,13 @@ Python was used to perform a k-prototypes algorithm on the dataset linked above.
 
 ## Results
 
-There was no clear optimal number of clusters, suggesting that the data were not in fact arranged into clear clusters. A reasonable person could choose anywhere between 4 and 7 clusters. This report chose 6, however it should be borne in mind that this may not necessarily be accurate. The following tables 
+There was no clear optimal number of clusters, suggesting that the data were not in fact arranged into clear clusters. A reasonable person could choose anywhere between 4 and 7 clusters. This report chose 6, however it should be borne in mind that this may not necessarily be accurate. @tbl-1 shows the mean for continuous variables and mode for categorical variables in each cluster. Because the sample was generally biased toward no mental or physical health diagnosis, drinking alcohol, and having close friends, the proportions for each of these variables are shown in @tbl-2. There are no very clear differentiators between clusters, though it is worth noting that there were 2 clusters with higher rates of both depression (2 and 4) and anxiety (5 and 6). It may be useful to target young adults with these characteristics in future research on anxiety and depression.
 
-::: {#table-1}
+&nbsp;
+
+&nbsp;
+
+::: {#tbl-1}
 **Table 1**
 ``` {python}
 #| echo: false
@@ -216,7 +216,7 @@ cat["Cluster"] = range(1, 7)
 
 :::
 
-::: {#table-2}
+::: {#tbl-2}
 **Table 2**
 ``` {python}
 #| echo: false
@@ -226,17 +226,19 @@ categories = mh.iloc[:, cat_cols]
 categories["Cluster"] = labels
 
 props = categories.groupby("Cluster").mean()
-props = props * 100
+
+props["Anxiety"] = props["Mental_Health_Status_Mild Anxiety"] + props["Mental_Health_Status_Moderate Anxiety"] + props["Mental_Health_Status_Severe Anxiety"]
+
+props.drop(columns=["Mental_Health_Status_Mild Anxiety", "Mental_Health_Status_Moderate Anxiety", "Mental_Health_Status_Severe Anxiety"], inplace=True)
 
 one_col_names = {
     "Has_Close_Friends": "Has Close Friends",
     "Mental_Health_Status_Depression": "Depression",
-    "Mental_Health_Status_Mild Anxiety":"Mild Anxiety",
-    "Mental_Health_Status_Moderate Anxiety":"Moderate Anxiety",
-    "Mental_Health_Status_Severe Anxiety":"Severe Anxiety",
     "Substance_Use_Alcohol": "Drinks Alcohol",
     "Substance_Use_Both": "Drinks Alcohol and Smokes",
-    "Substance_Use_Smoking": "Smokes"
+    "Substance_Use_Smoking": "Smokes",
+    "Gender": "Male",
+    "Anxiety": "Anxiety"
 }
 
 two_col_names = {
@@ -246,8 +248,21 @@ two_col_names = {
     "Physical_Health_Condition_Other Chronic Illness": "Other Chronic Illness"
 }
 
-one_cols = props.columns[range(9)].tolist()
-two_cols = props.columns[range(9, 13)].tolist()
+one_cols = [
+    "Gender",
+    "Has_Close_Friends",
+    "Mental_Health_Status_Depression",
+    "Substance_Use_Alcohol",
+    "Substance_Use_Both",
+    "Substance_Use_Smoking",
+    "Anxiety",
+]
+two_cols = [
+    "Physical_Health_Condition_Diabetes",
+    "Physical_Health_Condition_Hypertension",
+    "Physical_Health_Condition_Obesity",
+    "Physical_Health_Condition_Other Chronic Illness",
+]
 
 one = props[one_cols]
 two = props[two_cols]
@@ -257,7 +272,7 @@ two["Cluster"] = range(1, 7)
 
 (
     GT(one)
-    .fmt_number(columns=list(props.columns), decimals=1)
+    .fmt_percent(columns=list(props.columns), decimals=1)
     .cols_move_to_start(columns="Cluster")
     .cols_label(**one_col_names)
     .fmt_number(columns="Cluster", decimals=0)
@@ -274,6 +289,7 @@ two["Cluster"] = range(1, 7)
         style=style.text(font="Computer Modern", weight="bold", align="left"),
         locations=loc.header()
     )
+    .cols_move(columns="Anxiety", after="Mental_Health_Status_Depression")
 )
 ```
 
@@ -283,7 +299,7 @@ two["Cluster"] = range(1, 7)
 
 (
     GT(two)
-    .fmt_number(columns=list(props.columns), decimals=1)
+    .fmt_percent(columns=list(props.columns), decimals=1)
     .cols_move_to_start(columns="Cluster")
     .cols_label(**two_col_names)
     .fmt_number(columns="Cluster", decimals=0)
